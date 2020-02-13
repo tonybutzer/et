@@ -4,3 +4,7 @@ start:
 stop:
 	/usr/local/bin/terraform destroy
 	./renameDefunct.sh et-webserver1
+
+
+git:
+	(cd /opt/et; make)

@@ -19,5 +19,5 @@ resource "aws_instance" "et-webserver1" {
   iam_instance_profile                    ="${var.iam_role}"
   security_groups = ["${var.security_group}"]
   user_data                   = "${file("files/os_boot.sh")}"
-  root_block_device {volume_size = 30}
+  root_block_device {volume_size = 15}
 }

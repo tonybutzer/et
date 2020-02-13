@@ -25,7 +25,7 @@ variable "master_instance_type" {
 variable "instance_type" {
   description = "The instance type."
   #default = "m5a.large"
-  default = "t2.micro"
+  default = "t3a.nano"
 }
 
 
