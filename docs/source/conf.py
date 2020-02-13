@@ -21,8 +21,8 @@ source_parsers = {'.md': CommonMarkParser}
 
 # -- Project information -----------------------------------------------------
 
-project = 'juphub'
-copyright = '2019, Tony Butzer'
+project = 'ET Project Website'
+copyright = '2020, Tony Butzer'
 author = 'Tony Butzer'
 
 # The full version, including alpha/beta/rc tags

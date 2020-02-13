@@ -10,18 +10,16 @@ Welcome to juphub's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   00define_ET.md
    00status.md
-   01sandbox.md
-   goals.md
-   odchub.md
-   littlehub.md
-   pangeoCHS.md
-   cftdeep.md
-   labs.md
-   monitor.md
-   learningPlan.md
-   charter.md
-   k8s/index.rst
+   00project_charter.md
+   10project_plan
+   20ODC_synergy.md
+   30Data.md
+   40Code.md
+   99tony_notes.md
+   99tricks.md
+   99email.md
 
 Indices and tables
 ==================
