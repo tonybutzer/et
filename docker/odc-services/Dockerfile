@@ -15,8 +15,8 @@ RUN apt-get update && apt-get install -y vim && apt-get install -y postgresql-cl
 RUN pip3 install --no-cache --extra-index-url="https://packages.dea.ga.gov.au" odc_ui odc_apps_cloud odc_apps_dc_tools
 
 ENV tversion=5.7
-# RUN (cd /opt ; git clone http://github.com/tonybutzer/lite-stac) \
-	# && (cd /opt/lite-stac/lib; make build-root)
+RUN (cd /opt ; git clone http://github.com/tonybutzer/lite-stac) \
+	&& (cd /opt/lite-stac/lib; make build-root)
 RUN (cd /opt ; git clone http://github.com/tonybutzer/indexc2) \
 	&& (cd /opt/indexc2/lib; make build-root)
 
