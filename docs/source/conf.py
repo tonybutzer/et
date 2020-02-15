@@ -21,7 +21,7 @@ source_parsers = {'.md': CommonMarkParser}
 
 # -- Project information -----------------------------------------------------
 
-project = 'ET Project Website'
+project = 'ET PANGEO AWS Development'
 copyright = '2020, Tony Butzer'
 author = 'Tony Butzer'
 

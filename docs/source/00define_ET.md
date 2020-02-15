@@ -20,7 +20,7 @@
 	- So understanding how much of that water is used by plants is key
 	- An important plant use model is -->  the Operational Simplified Surface Energy Balance (SSEBop) model
 
-Again, this shows that the SSEBop is a viable approach that can produce reliable results with mini-mal effort, in near real-time as soon as theTs data are available with an automatic processing and posting.
+Again, this shows that the SSEBop is a viable approach that can produce reliable results with minimal effort, in near real-time as soon as the __Ts__ data are available with an automatic processing and posting.
 
 ---
 

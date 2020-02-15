@@ -12,11 +12,14 @@ Welcome to juphub's documentation!
 
    00define_ET.md
    00status.md
-   00project_charter.md
+   01project_charter.md
    10project_plan
-   20ODC_synergy.md
+   15conops.md
+   20infra.md
    30Data.md
    40Code.md
+   90ODC_synergy.md
+   91Landfire_synergy.md
    99tony_notes.md
    99tricks.md
    99email.md

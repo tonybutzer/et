@@ -15,8 +15,15 @@
 	- determine/discuss grid cell size - ARD Virtual Tiles
 2. Continue to refine project website and charter
 3. listen to more music
+4. set up a kanban
 
 
 ## Other Sections - look at execution and control
 
 ## Communication Plan  - here or charter
+
+
+```
+Note - see the major milestones and break it down here 
+or in the kanban
+```

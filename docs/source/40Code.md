@@ -20,8 +20,8 @@ CHS is only available inside the USGS networks of VPN Access
 ### Mitigations
 
 1. Credential every collaborator
-2. Replicate a smaller set of data and aux data into GA buckets for refining/rewriting code to use xarrays
-3. Then deploy this in CHS with the know CHS caveats
+2. ```Replicate``` a smaller set of data and aux data into GA buckets for refining/rewriting code to use xarrays
+3. Then deploy this in CHS with the known CHS caveats
 
 
 ### CHS TIC Cartoon
