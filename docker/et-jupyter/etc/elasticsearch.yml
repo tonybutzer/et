@@ -1,0 +1,9 @@
+cluster.name: "docker-cluster"
+network.host: 0.0.0.0
+
+
+discovery.type: "single-node"
+#
+# Bootstrap the cluster using an initial set of master-eligible nodes:
+#
+# cluster.initial_master_nodes: ["node-1"]
