@@ -1,5 +1,9 @@
 version: '3'
 
+networks:
+  tony-net:
+    driver: bridge
+
 services:
   postgres:
     image: postgres:10.3
@@ -7,6 +11,8 @@ services:
       - POSTGRES_DB=opendatacube
       - POSTGRES_PASSWORD=opendatacubepassword
       - POSTGRES_USER=opendatacube
+    networks:
+      - tony-net
 
   admin-jupyter:
     build:
@@ -24,6 +30,8 @@ services:
       - ./data:/notebooks
     shm_size: 1g
     command: jupyter notebook --ip="*" --NotebookApp.token=''
+    networks:
+      - tony-net
 
     
   elasticsearch:
@@ -37,10 +45,15 @@ services:
       - ./etc/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
     ports:
       - "9200:9200"
+    networks:
+      - tony-net
+
   kibana:
     image: docker.elastic.co/kibana/kibana:6.4.3
     volumes:
       - ./etc/kibana.yml:/usr/share/kibana/config/kibana.yml
     ports:
       - "5601:5601"
+    networks:
+      - tony-net
 
