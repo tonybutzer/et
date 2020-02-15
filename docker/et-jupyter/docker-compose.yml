@@ -1,8 +1,8 @@
 version: '3'
 
 networks:
-  tony-net:
-    driver: bridge
+  odcservices_tony-net:
+          external: true
 
 services:
 
