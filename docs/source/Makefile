@@ -3,4 +3,4 @@ html:
 
 
 git:
-	(cd /opt/jup && make)
+	(cd /opt/et && make)

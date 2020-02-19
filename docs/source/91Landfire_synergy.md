@@ -18,8 +18,8 @@
 
 1. Pangeo Training Ground -- pangeo.chs.usgs.gov
 2. Proxy Data Lake C1L2AlbersScenes
-	- Action: standup an ODC Postgres Container via compose - 
-	- Action: index all of USA for both landfire and ET
+	- Action: standup an ODC Postgres Container via compose - DONE!
+	- Action: index all of USA for both landfire and ET - working on western US as a start
 
 ## Topics
 
@@ -57,3 +57,23 @@
 - Pete Doucette
 - Kristi Kline
 - Steve Labahn
+
+---
+---
+## Animations
+
+![animate_lake](https://raw.githubusercontent.com/tonybutzer/notebook/master/05-Science-Outreach-Evaporation-Etc/10-Sanath/01-Animation-Exploration/isa.gif)
+
+
+## Indexing and Histogram Stretch Sadness
+
+### This Notebook Demonstrates Three Issues:
+
+### 1. Scene/Data Corners versus Product Corners
+### 2. WRS edge conditions
+### 3. Some contrast stretch methods are not smart about fill
+
+
+![broken_animation](https://raw.githubusercontent.com/tonybutzer/notebook/master/05-Science-Outreach-Evaporation-Etc/10-Sanath/01-Animation-Exploration/broken-isabella-animation.gif)
+
+

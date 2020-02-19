@@ -1,3 +1,7 @@
+<u>status</u>
+
+---
+
 # Technical Status
 
 ## WIP Focus Areas
@@ -40,9 +44,9 @@
 ## Challenges
 
 1. Pace and Frequency of Change
-	- Python Libraries
+	- Many disparate Python Libraries - also dependency conflicts
 	- Growth in the number of EO Satellites and Sensors
-	- Cloud Services
+	- Explosion of Cloud Service offerings
 	- Growth and change in architectural choices
 2. Reduce the amount of data curation and technology deployment burdens to perform pure Science
 	- Unburden the scientist
@@ -50,3 +54,4 @@
 	- Approvals and acceptance of these models is still under debate.
 4. The technologist knows technology - the scientist knows science - how do we efficiently communicate
 	- How to partition the tasks into technical steps
+5. Cloud computing is unfamiliar and sometimes feared or misunderstood.

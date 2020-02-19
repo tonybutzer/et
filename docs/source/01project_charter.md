@@ -1,4 +1,6 @@
-# Project Charter "Evapotranspiration Modeling in AWS using the PANGEO Architecture"
+<u> charter</u>
+# Project Charter PANGEO ET Model 
+## "Evapotranspiration Modeling in AWS using the PANGEO Architecture"
 
 
 ## Introduction: 
@@ -14,74 +16,11 @@
 ```
 NOTE: we need to document the contrasting approaches and some of the policies of GEE versus Open Source and AWS.
 
-also consider govt contracts that inclue M$ Azure etc.
+also consider govt contracts that include M$ Azure etc.
 ```
 
 > A project charter is a formal project authorization which documents the shared understanding of a project’s scope, development, and objectives, while also defining the roles and responsibilities of each party involved.
 
-## Staffing, Roles, Skills, Responsibilities
-
-### Gabriel Senay -- Principle Investigator 
-1. Specializing in Water Cycle modeling and predictive models
-2. Published Scientific Author
-3. Lives to integrate land cover and hydrologic modeling.
-### Steffi Kagone - Chief Scientist - Science Project Manager/Lead
-1. Published Scientific Author
-2. Highly Responsive Communicator and Motivating Force
-### MacKenzie Friedrichs
-1. Completed a global ET model using Google Earth Engine
-2. Boldly supports open source methods and code sharing
-3. Can discern the strengths and weaknesses of various cloud approaches
-4. Common versatile skills for all ET efforts
-### Dr. Darin Schulte - VegET model specialist
-1. Python Coding
-2. Operation model experience in the cloud
-3. github knowledge
-4. Python Skills
-5. VegET expertise
-6. Works in a liberating Academic University Environment - (valued Perspective)
-7. Hopes to attend the June Open Data Cube Workshop at EROS
-	- This promises to unleash some revolutionary capabilities in the cloud for SCIENCE!
-### Gabriel Parrish - Scientist
-1. Experienced in Jupyter Notebooks - completed the workshop training
-2. Markdown documentation skills
-### Kul Bikram Khand
-1. Voted best name for a colleague in the waterSMART project
-
-### Tony Butzer - Open Data Cube Cloud Engineer
-
-1. DevOps and Infrastructure
-2. Python code builds and docker containers
-3. Docker Orchestration
-4. Open Source Agile Development Methods
-5. Open Data Cube experience and liaison to higher level engineers in ODC
-6. Cloud computing enthusiast
-7. Loyal EROS employee since the 80's
-
-#### Weaknesses
-1. Lack of Scientific Background
-2. Low Tolerance for metawork and obstacles.
-3. His brain wanders and won't shutoff. If only he could harness it for good.
-
-## Business Case;  The BIG WHY!
-
-```
-NOTE: old general and hyperbole - need to rewrite
-```
-
-1. "There are more human beings on the earth than have ever died"
-    - This leads to resource shortages and implications for humanity.
-
-2. Resources need to be managed
-    - Laws and governance must create efficient use of land and water.
-
-3. Mapping Remote Sensing Data into usable information is paramount to charting resource scarcities and abundances.
-    - Jupyter notebooks are becoming a game-changing approach for presenting science findings
-    - Convincing some of the people governing countries will require clear presentations of the facts of global change.
-
-4. Cloud computing is revolutionizing data lakes and immediate scalable processing
-
-> He who has a why to live can bear almost any how. -- Friedrich Nietzsche
 
 ### Project Statement
 
@@ -118,15 +57,41 @@ System is defined to be the ET model system ( Data, Code, Infrastructure, and Mo
 
 1. The architecture choices and code base used for the prototype ET modeling application should directly map to a routine, periodic, production capability that leverages cloud services and exports products in an easily exploitable way.
 
+## Business Case;  The BIG WHY!
+
+### Population Growth and Better Resource Management
+
+1. "There are more human beings on the earth than have ever died"
+    - This leads to resource shortages and implications for humanity.
+
+2. Resources need to be managed
+    - Laws and governance must create efficient use of land and water.
+
+
+### Simplifying Science by Simplifying Data Access and Exploitation
+
+3. Mapping Remote Sensing Data into usable information is paramount to charting resource scarcities and abundances.
+    - Jupyter notebooks are becoming a game-changing approach for presenting science findings
+    - Convincing some of the people governing countries will require clear presentations of the facts of global change.
+
+4. Cloud computing is revolutionizing data lakes and immediate scalable processing
+
+> He who has a why to live can bear almost any how. -- Friedrich Nietzsche
+
+### ET Scientists have a willingness to Exploit Cloud Platforms
+1. The PANGEO Sandbox Model is interesting enough to the ET project to explore
+2. The USGS is also exploring PANGEO incubation environments
+3. Collection-2 will live in the cloud in Oregon - we need to understand this new Landsat Data Access Model.
+
 ## Key Calendar Event Watch
 
 1. Jupyter Pangeo Workshop 1 - Pieschke/Roberts - December 2019
 3. Persistent Pangeo Sandbox (CHS Hosted) (EarthMap Funded) February 11, 2019
-2. Open Data Cube annual Hackathon - February 2020
-3. ET Pangeo Project Kickoff - February 2020
-4. USGS -- GeoScience Annual Planning and Collaboration Group - big wigs pontificate - April 26-30, Annapolis MD.
+2. Open Data Cube Annual Hackathon - February 2020 in Canberra, Australia
+3. ET Pangeo Project Kickoff `[THIS PROJECT]` - February 2020
+4. USGS -- GeoScience Annual Planning and Collaboration Group - big wigs pontificate - April 26-30, Annapolis MD. `[Doucette, Labahn, Jenn Lacey, Butzer]`
 5. Collection-2 Public Release with STAC catalog and STAC API/Service - May 15, 2020
-6. Open Data Cube Science Workshop at EROS - hosted by Alex Leith and CEOS's Brian Killough - June 15, 2020
+6. Open Data Cube Science Workshop at EROS - hosted by Alex Leith and CEOS's Brian Killough - June 15, 2020 `[Jupyter, AWS, ODC, Collection-2 DEEP DIVE]`
 
 ## Major Milestones
 
@@ -134,7 +99,7 @@ System is defined to be the ET model system ( Data, Code, Infrastructure, and Mo
 - define phase strategy
 	- prototype, feasibility study, incubation
 	- first ad-hoc model test case - all of new mexico - rio 
-	- scalable production CDR and ORR
+	- define scalable production options and notional architecture [perhaps lightweight CDR and ORR]
 
 ### Conops Generation
 
@@ -191,6 +156,116 @@ System is defined to be the ET model system ( Data, Code, Infrastructure, and Mo
 	- Companion services in same VPC/network broadcast domain
 		- Docker containers with projected port access
 
+
+## Staffing, Roles, Skills, Responsibilities
+
+
+## Staff Contact List
+
+```bash
+
+Terry Sohl
+Principle Investigator
+U.S. Geological Survey EROS Center, 
+Sioux Falls, SD, 57198, USA 
+<u>sohl@usgs.gov</u>
+ 
+Ward Sanford
+Co-Principle Investigator
+Water Resources Mission Area
+12201 Sunrise Valley Dr, Reston, VA 20192
+wsanford@usgs.gov
+ 
+Gabriel Senay
+Co-Principle Investigator
+U.S. Geological Survey (USGS), Earth Resources Observation and Science (EROS) Center, 
+North Central Climate Adaptation Science Center, 
+Fort Collins, CO, USA
+senay@usgs.gov
+ 
+Stefanie Kagone
+Research Scientist
+ASRC Federal Data Solutions LLC, Contractor to the U.S. Geological Survey EROS Center, 
+Sioux Falls, SD, 57198, USA 
+skagone@contractor.usgs.gov
+ 
+Kul Khand
+Research Scientist
+ASRC Federal Data Solutions LLC, Contractor to the U.S. Geological Survey EROS Center, 
+Sioux Falls, SD, 57198, USA 
+kkhand@contractor.usgs.gov
+ 
+Darin Schulte PhD, MLA
+Research Scientist
+Natural Resources Ecology Laboratory
+Colorado State University
+darin.schulte@colostate.edu
+ 
+Gabe Parrish
+Remote Sensing Scientist
+Innovate!, Inc., TSSC Contractor to the U.S. Geological Survey EROS Center, 
+Sioux Falls, SD 57198
+gparrish@contractor.usgs.gov
+ 
+
+Tony Butzer
+OpenDataCube Cloud Engineer
+KBR - Sioux Falls
+butzer@contractor.usgs.gov
+```
+
+### Terry Sohl - Principle Investigator
+1. Specializing in Land use/change modeling
+2. development of the FORE-SCE (FOREcasting SCEnarios of land-use change) modeling framework
+3. Published Scientific Author
+4. representative for the USGS EarthMAP initiative
+### Ward Sanford - Co-Principle Investigator
+1. Specializing in regional groundwater flow and transport and water budget
+2. Published Scientific Author
+### Gabriel Senay – Co-Principle Investigator/Project Lead
+1. Specializing in Water Cycle modeling and predictive models
+2. Published Scientific Author
+3. Lives to integrate land cover and hydrologic modeling.
+4. Inventor of the VegET and SSEBop ET model
+### Stefanie Kagone - Research Scientist/Team Lead 
+1. Experienced VegET modeler and Python coder
+2. Highly Responsive Communicator and Motivating Force
+3. Published Scientific Author
+### Kul Khand - Reseach Scientist
+1. Experienced hydrologic modeler
+2. Published Scientific Author
+3. Voted best name for a colleague in the WaterSMART project
+### Darin Schulte - Research Scientist
+1. Python Coding
+2. Operation model experience in the cloud
+3. GitHub knowledge
+4. Python Skills
+5. VegET expertise
+6. Works in a liberating Academic University Environment - (```Valued Perspective```)
+7. Hopes to attend the June Open Data Cube Workshop at EROS
+	- This Workshop promises to unleash some ```revolutionary``` capabilities in the cloud for SCIENCE!
+	- This Workshop will be well attended by an enthusiatic cadre of International World Class Scientists
+ 
+### Gabe Parrish - Remote Sensing Scientist
+1. Experienced in Jupyter Notebooks - completed the workshop training
+2. Markdown documentation skills
+3. open source coder
+ 
+
+### Tony Butzer - Open Data Cube Cloud Engineer
+
+1. DevOps and Infrastructure
+2. Python code builds and docker containers
+3. Docker Orchestration
+4. Open Source Agile Development Methods
+5. Open Data Cube experience and liaison to higher level engineers in ODC
+6. Cloud computing enthusiast
+7. Loyal EROS employee since the 80's
+
+#### Weaknesses
+1. Lack of Scientific Background
+2. Low Tolerance for metawork and obstacles.
+3. His brain wanders and won't shutoff. If only he could harness it for good.
 
 
 
@@ -282,7 +357,7 @@ System is defined to be the ET model system ( Data, Code, Infrastructure, and Mo
 	- to be determined or perhaps to be ignored
 2. Enterprise Architect - Randy Sunne
 3. Data Scientist and Data Engineer - Renee Pieschke
-4. Science Liasone
+4. Science liaison
 3. Development Team (N/A)
 4. Cloud Team (DevOps?)
 
@@ -295,19 +370,21 @@ System is defined to be the ET model system ( Data, Code, Infrastructure, and Mo
 2. Security Items will need to be addressed - likely in stages
 3. Attention Span risk - the amount of work and the pace of change can vector resources in unexpected ways.
 
-## Team and Organization: 
+## External Subject Matter Option List
 
 - list who will work on the project, who oversees the project, and outline their roles
 
-1. Renee Pieschke - PRODUCT MANAGER - strategic advisor
-	- Rich Signell - Visionary
-2. Pegah Lashgarlou - EKS/K8s expert and administrator
+1. Renee Pieschke - PRODUCT MANAGER - strategic advisor - Collection-2 Expert
+	- Rich Signell - Visionary - PANGEO expertise
+	- Nathan Roberts - cloud data access, xarray and dask
+2. CHS Team AWS Cloud meets FedRAMP
+	- Pegah Lashgarlou - EKS/K8s expert and administrator
 	- Sam Congdon - EKS Consultant
 	- Bill Howe - AWS Consultant
 	- John Hedman - AWS Consultant
 	
 3. Tony Butzer - Jupyter Hub and Jupyter Notebook - facilitator
-4. Rizbi Hassan - Notebook Content Managment
+4. Rizbi Hassan - Notebook Content Management
 
 ## Approvals: 
 - a space for stakeholders to record their approval (or disapproval) of the charter 
@@ -321,3 +398,9 @@ This project will use agile techniques with Rocket Chat and perhaps a Kanban
     
 ## Communication plan: 
 - this includes details about how each person involved will be kept informed about progress, changes, etc. (Here’s how to create a communication plan)
+
+1. Weekly Meetings at least during incubation
+2. ET PANGEO website - records details - like an engineering notebook
+	- promotes wider collaboration
+	- saves on keystrokes
+3. more to be defined ....
