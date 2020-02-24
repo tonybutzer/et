@@ -5,6 +5,21 @@
 
 ### Inputs
 
+```
+butzer@IGSKMNCNLT01529 /cygdrive/k/90daytemp/butzer/fromStefanie
+$ ls -1a
+air_temperature
+MODIS_NDVI
+precipitation
+soilData
+
+Snowpack_initial_US.tif
+Snowpack_initial_US.tif
+SWE_initial_US.tif
+
+'Input data to the VegET model.ipynb'
+```
+
 ### Processing
 
 

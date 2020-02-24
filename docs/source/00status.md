@@ -4,13 +4,13 @@
 
 # Technical Status
 
-![cartoon](https://drive.google.com/open?id=1t-MqgkL6i7SEc41sTSykH1uSa5ev7oYK)
+![cartoon](https://raw.githubusercontent.com/tonybutzer/assets/master/et/et-infra-cartoon.png)
 
 ## WIP Focus Areas
 1. Starting to define, examine and download required input data
 	- MODIS
 	- Rainfall/Precipitation
-	- Other ?
+	- Other all staged in 90dayTemp butzer fromStefanie
 1. Project Initiation - Project Charter
 2. Weekly Communication Cadence
 2. Code
