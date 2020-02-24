@@ -5,24 +5,72 @@
 # Technical Status
 
 ## WIP Focus Areas
+1. Starting to define, examine and download required input data
+	- MODIS
+	- Rainfall/Precipitation
+	- Other ?
 1. Project Initiation - Project Charter
+2. Weekly Communication Cadence
+2. Code
+	- Darin is gathering current VegET code into a public github - WIP
+	- https://github.com/ecolstat/VegET
+	- all code at this point is still rough prototypes - baby steps
+2. Starting to evaluate technology stack choices
+	- AWS = Yes
+	- Oregon Region = Yes
+	- Jupyter Interface = Yes
+	- Python Language = Yes
+	- Sandboxes and Compute Systems = WIP
+2. Defining the overall vision for the intersection of the Models
+	- SSEBop - Google Earth Engine 
+	- VegET - Model exploring AWS, Pangeo, ODC
+	- Merged Higher Level Product
+		- May look at map reduced products from the Models - ex. NetCDF packages
+		- Could explore ways to integrate other infrastructure such as HPC
+		- Define the Landsat Role in this more sophisticated model
 2. Synergies between LandFire and ET
 3. Foundation Infrastructure
+	- `Jupyter Incubator`
+		- 10.12.68.34
+		- Small Scale
+		- always up
+		- easy to reset
+		- Allows Testing of OpenDataCube python libraries and data lake indexing
+	- Data Bucket Creation - baby-step 1
+		- in GA Account for access to any sandbox - any AWS system
+		- Oregon region US-west-2
+		- 
+	- Sandboxes and Python Environments
+		- etymology of a container
 	- Project Website with DNS Record - DONE
 		- initial ip is **44.226.205.97**
 		- ```dynamic dns``` is et.hopto.org
 	- ```dump tljh```TLJH inside CHS with OpenDataCube Functioning- document why
 		- pangeo.chs offers an outsourced solution for simple jupyter play - frees Tony
+			- pangeo limitations include sometimes broken;
+			- USGS only
+			- Slower speed TIC based internet connection
+			- Somewhat complex architecture stack - maybe needed for scaling
 		- tljh not easiliy integrated with ODC
 		- tljh not a docker approach - development philosophy should mandate docker
+5. Data
+	- Loading
+		- Initially from the VDI cluster --> 90DayTemp
+		- 90DayTemp (scp) --> to AWS Instance
+		- Eventually each sourced from cononical data provider directly via
+			- wget
+			- portal API
 4. Proxy Data Lake as an ODC Indexed Product (c1l2scenealbers)
+	- Initial focus is less about Landsat - 
+		- Could use it for Context at this point
 5. Simple Sample Jupyter Notebooks - Kagone plus others
 6. Gap analysis technical shortfall analysis of pangeo.chs.usgs.gov as an OpenDataCube platform
 
 ## Tactical Successes
-1. Meetings between technologists and scientists happening
+1. Meetings between technologists and scientists happening - weekly
 2. Stood up a ET in the cloud website
-	- http://et.hopto.org
+	- http://et.hopto.org  # unofficial dns entry
+	- http://44.226.205.97
 
 ## Technical Challenges
 1. Data Loading

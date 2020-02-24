@@ -235,6 +235,11 @@ butzer@contractor.usgs.gov
 1. Experienced hydrologic modeler
 2. Published Scientific Author
 3. Voted best name for a colleague in the WaterSMART project
+4. He is a Jackrabbit.
+5. Jumped from the Mountains of Nepal to the plains of South Dakota
+	- He had to walk up hill to school for an hour -- both ways. :-)
+> For me in particular, most of my work is involved in studying how the global change, the land cover change specifically, is impacting water resources ... and finding scientific solutions to sustain the available water resources.”
+
 ### Darin Schulte - Research Scientist
 1. Python Coding
 2. Operation model experience in the cloud
