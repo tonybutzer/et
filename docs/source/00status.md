@@ -4,6 +4,8 @@
 
 # Technical Status
 
+![cartoon](https://drive.google.com/open?id=1t-MqgkL6i7SEc41sTSykH1uSa5ev7oYK)
+
 ## WIP Focus Areas
 1. Starting to define, examine and download required input data
 	- MODIS
