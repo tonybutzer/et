@@ -29,4 +29,24 @@ Mon, Feb 24, 2020  2:51:21 PM
 
 #### Dry run
 
-``` aws s3 sync ./air_temperature s3://ga-et-data-west/inputsv0/ ```
+```  aws s3 sync ./air_temperature s3://ga-et-data-west/inputsv0/air_temperature --dryrun ```
+
+#### For Reals
+
+```  time aws s3 sync ./air_temperature s3://ga-et-data-west/inputsv0/air_temperature ```
+
+```
+real    1m44.966s
+user    0m39.020s
+sys     0m23.729s
+```
+
+what took *an hour and a half* - can be done in *1 minute and a half*
+
+- that's the cloud - its awesome - S3 is powerful
+- and everyone can access the same buckets directly - think about it and *smile* :-)
+
+
+### Nuke prefix
+
+``` aws s3 rm --recursive  s3://ga-et-data-west/inputsv0/ --dryrun```
