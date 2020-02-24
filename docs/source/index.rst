@@ -17,6 +17,7 @@ Welcome to juphub's documentation!
    15conops.md
    20infra.md
    30Data.md
+   35data_wrangle.md
    40Code.md
    90ODC_synergy.md
    91Landfire_synergy.md
