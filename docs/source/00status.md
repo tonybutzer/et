@@ -56,12 +56,16 @@
 		- tljh not easiliy integrated with ODC
 		- tljh not a docker approach - development philosophy should mandate docker
 5. Data
-	- Loading
+	- documented here
+		- http://44.226.205.97/30Data.html#current-input-data-to-the-veget-model
+	- Loading -- Wrangling
 		- Initially from the VDI cluster --> 90DayTemp
 		- 90DayTemp (scp) --> to AWS Instance
 		- Eventually each sourced from cononical data provider directly via
 			- wget
 			- portal API
+	- http://10.12.68.34/tree/notebook/05-Science-Outreach-Evaporation-Etc/00-et/00-bucket
+	- demo above
 4. Proxy Data Lake as an ODC Indexed Product (c1l2scenealbers)
 	- Initial focus is less about Landsat - 
 		- Could use it for Context at this point
