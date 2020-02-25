@@ -13,6 +13,7 @@
 	- Other all staged in 90dayTemp butzer fromStefanie
 1. Project Initiation - Project Charter
 2. Weekly Communication Cadence
+	- forming the team [http://44.226.205.97/01project_charter.html#staff-contact-list](http://44.226.205.97/01project_charter.html#staff-contact-list)
 2. Code
 	- Darin is gathering current VegET code into a public github - WIP
 	- https://github.com/ecolstat/VegET
@@ -41,7 +42,7 @@
 	- Data Bucket Creation - baby-step 1
 		- in GA Account for access to any sandbox - any AWS system
 		- Oregon region US-west-2
-		- 
+		- [Data Wrangle HERE:](http://44.226.205.97/35data_wrangle.html)
 	- Sandboxes and Python Environments
 		- etymology of a container
 	- Project Website with DNS Record - DONE
