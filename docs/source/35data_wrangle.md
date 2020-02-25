@@ -2,6 +2,8 @@
 
 ### Notes
 
+### Air Temperature
+
 *./push-scp-ga.sh air_temperature*:
 
 loading from local disk to cloud EBS
@@ -50,3 +52,19 @@ what took *an hour and a half* - can be done in *1 minute and a half*
 ### Nuke prefix
 
 ``` aws s3 rm --recursive  s3://ga-et-data-west/inputsv0/ --dryrun```
+
+### Precipitation
+
+
+```  aws s3 sync ./precipitation s3://ga-et-data-west/inputsv0/precipitation --dryrun ```
+
+#### For Reals
+
+```  time aws s3 sync ./precipitation s3://ga-et-data-west/inputsv0/precipitation ```
+
+```
+real    2m43.137s
+user    0m33.461s
+sys     0m7.885s
+```
+
