@@ -14,6 +14,8 @@
 - sign in hub as ubuntu
 	- add users from users.txt in pkg/tljh
 
+[THEN GO TO SANDBOX](http://44.226.205.97/18sandbox.html)
+
 
 ## Project Website
 
