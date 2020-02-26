@@ -1,0 +1,921 @@
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0008325f0ded04d04",
+                    "InstanceId": "i-09d1f69a95305f1bf",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "kubernetes.tony.k8s.local-c9:44:0d:70:47:e1:20:32:76:e3:87:e2:36:2c:2b:e5",
+                    "LaunchTime": "2019-05-07T20:58:25.000Z",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-west-2a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 48,
+                        "Name": "terminated"
+                    },
+                    "StateTransitionReason": "User initiated (2019-05-07 21:15:22 GMT)",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [],
+                    "ClientToken": "2f75aa50-5c72-36da-a39d-e91f51006ffe_subnet-0fbe592b3366eb9dc_1",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [],
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "k8s.io/cluster-autoscaler/node-template/label/kops.k8s.io/instancegroup",
+                            "Value": "master-us-west-2a"
+                        },
+                        {
+                            "Key": "KubernetesCluster",
+                            "Value": "tony.k8s.local"
+                        },
+                        {
+                            "Key": "k8s.io/role/master",
+                            "Value": "1"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "master-us-west-2a.masters.tony.k8s.local"
+                        },
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "master-us-west-2a.masters.tony.k8s.local"
+                        }
+                    ],
+                    "VirtualizationType": "hvm"
+                }
+            ],
+            "OwnerId": "471850042218",
+            "RequesterId": "903220451833",
+            "ReservationId": "r-03780f44bd815673c"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0def3275",
+                    "InstanceId": "i-031d7820d377b25df",
+                    "InstanceType": "m5.large",
+                    "KeyName": "bucketlauncher2-keypair",
+                    "LaunchTime": "2019-05-07T21:36:24.000Z",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-west-2a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-16-112.us-west-2.compute.internal",
+                    "PrivateIpAddress": "172.31.16.112",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-54-185-43-181.us-west-2.compute.amazonaws.com",
+                    "PublicIpAddress": "54.185.43.181",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-294c934f",
+                    "VpcId": "vpc-ce78f4a8",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2019-05-07T21:36:24.000Z",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-093cd8cde973b6c9d"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::471850042218:instance-profile/tonyEC2",
+                        "Id": "AIPAJJE55Y5NB5J3DUX5U"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-54-185-43-181.us-west-2.compute.amazonaws.com",
+                                "PublicIp": "54.185.43.181"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2019-05-07T21:36:24.000Z",
+                                "AttachmentId": "eni-attach-09d3f0692b63db46e",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "launch-wizard-4",
+                                    "GroupId": "sg-dfd087a2"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:49:1d:09:c5:48",
+                            "NetworkInterfaceId": "eni-0313922e260021ad7",
+                            "OwnerId": "471850042218",
+                            "PrivateDnsName": "ip-172-31-16-112.us-west-2.compute.internal",
+                            "PrivateIpAddress": "172.31.16.112",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-54-185-43-181.us-west-2.compute.amazonaws.com",
+                                        "PublicIp": "54.185.43.181"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-16-112.us-west-2.compute.internal",
+                                    "PrivateIpAddress": "172.31.16.112"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-294c934f",
+                            "VpcId": "vpc-ce78f4a8"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "launch-wizard-4",
+                            "GroupId": "sg-dfd087a2"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "kubedock"
+                        },
+                        {
+                            "Key": "Owner",
+                            "Value": "tonybutzer@gmail.com"
+                        }
+                    ],
+                    "VirtualizationType": "hvm"
+                }
+            ],
+            "OwnerId": "471850042218",
+            "ReservationId": "r-040b94d9d17b7db7f"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0008325f0ded04d04",
+                    "InstanceId": "i-050f3cc09a149a9ed",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "kubernetes.tony.k8s.local-c9:44:0d:70:47:e1:20:32:76:e3:87:e2:36:2c:2b:e5",
+                    "LaunchTime": "2019-05-07T20:58:18.000Z",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-west-2a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 48,
+                        "Name": "terminated"
+                    },
+                    "StateTransitionReason": "User initiated (2019-05-07 21:15:22 GMT)",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [],
+                    "ClientToken": "d985a9e6-55b3-e3da-b862-07e9695adb54_subnet-0fbe592b3366eb9dc_1",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [],
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "nodes.tony.k8s.local"
+                        },
+                        {
+                            "Key": "KubernetesCluster",
+                            "Value": "tony.k8s.local"
+                        },
+                        {
+                            "Key": "k8s.io/role/node",
+                            "Value": "1"
+                        },
+                        {
+                            "Key": "k8s.io/cluster-autoscaler/node-template/label/kops.k8s.io/instancegroup",
+                            "Value": "nodes"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "nodes.tony.k8s.local"
+                        }
+                    ],
+                    "VirtualizationType": "hvm"
+                }
+            ],
+            "OwnerId": "471850042218",
+            "RequesterId": "903220451833",
+            "ReservationId": "r-0ebcd3a8924c8426e"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0def3275",
+                    "InstanceId": "i-06684b4ab3ff074f4",
+                    "InstanceType": "m5.large",
+                    "KeyName": "bucketlauncher2-keypair",
+                    "LaunchTime": "2019-05-05T07:54:22.000Z",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-west-2b",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-40-151.us-west-2.compute.internal",
+                    "PrivateIpAddress": "172.31.40.151",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "StateTransitionReason": "User initiated",
+                    "SubnetId": "subnet-1576855d",
+                    "VpcId": "vpc-ce78f4a8",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2019-05-03T05:50:44.000Z",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0eb95efc8df267ce4"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::471850042218:instance-profile/tonyEC2",
+                        "Id": "AIPAJJE55Y5NB5J3DUX5U"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2019-05-03T05:50:44.000Z",
+                                "AttachmentId": "eni-attach-0b180c63e91ccafe9",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "launch-wizard-4",
+                                    "GroupId": "sg-dfd087a2"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "06:4b:9b:95:67:c8",
+                            "NetworkInterfaceId": "eni-0cf6e532e89455034",
+                            "OwnerId": "471850042218",
+                            "PrivateDnsName": "ip-172-31-40-151.us-west-2.compute.internal",
+                            "PrivateIpAddress": "172.31.40.151",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-40-151.us-west-2.compute.internal",
+                                    "PrivateIpAddress": "172.31.40.151"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-1576855d",
+                            "VpcId": "vpc-ce78f4a8"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "launch-wizard-4",
+                            "GroupId": "sg-dfd087a2"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.InstanceInitiatedShutdown",
+                        "Message": "Client.InstanceInitiatedShutdown: Instance initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "espa2"
+                        },
+                        {
+                            "Key": "Owner",
+                            "Value": "tonybutzer@gmail.com"
+                        }
+                    ],
+                    "VirtualizationType": "hvm"
+                }
+            ],
+            "OwnerId": "471850042218",
+            "ReservationId": "r-0d3ac05d6036e91a0"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-9c4968e4",
+                    "InstanceId": "i-03cdff80d3b6811a9",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "bucketlauncher2-keypair",
+                    "LaunchTime": "2019-04-05T16:54:08.000Z",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-west-2a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-27-239.us-west-2.compute.internal",
+                    "PrivateIpAddress": "172.31.27.239",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "StateTransitionReason": "User initiated",
+                    "SubnetId": "subnet-294c934f",
+                    "VpcId": "vpc-ce78f4a8",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2019-03-26T21:15:07.000Z",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0c5f8216fd1ca7910"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::471850042218:instance-profile/tonyEC2",
+                        "Id": "AIPAJJE55Y5NB5J3DUX5U"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2019-03-26T21:15:07.000Z",
+                                "AttachmentId": "eni-attach-0150a17abd7d3d1c9",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "launch-wizard-1",
+                                    "GroupId": "sg-47e9033a"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:23:bd:1f:d3:4a",
+                            "NetworkInterfaceId": "eni-02112ebebbb54326f",
+                            "OwnerId": "471850042218",
+                            "PrivateDnsName": "ip-172-31-27-239.us-west-2.compute.internal",
+                            "PrivateIpAddress": "172.31.27.239",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-27-239.us-west-2.compute.internal",
+                                    "PrivateIpAddress": "172.31.27.239"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-294c934f",
+                            "VpcId": "vpc-ce78f4a8"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "launch-wizard-1",
+                            "GroupId": "sg-47e9033a"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.InstanceInitiatedShutdown",
+                        "Message": "Client.InstanceInitiatedShutdown: Instance initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "Owner",
+                            "Value": "tonybutzer@gmail.com"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "cube6"
+                        }
+                    ],
+                    "VirtualizationType": "hvm"
+                }
+            ],
+            "OwnerId": "471850042218",
+            "ReservationId": "r-03ed67268d50d23d1"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-7114c909",
+                    "InstanceId": "i-0024535c759e3d930",
+                    "InstanceType": "m4.xlarge",
+                    "KeyName": "datacube_ec2_index",
+                    "LaunchTime": "2018-05-02T00:52:12.000Z",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-west-2b",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-10-0-11-54.us-west-2.compute.internal",
+                    "PrivateIpAddress": "10.0.11.54",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-130c595b",
+                    "VpcId": "vpc-5f6a8326",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2018-05-02T00:52:13.000Z",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-02366e5ac41d287e5"
+                            }
+                        },
+                        {
+                            "DeviceName": "/dev/xvdcz",
+                            "Ebs": {
+                                "AttachTime": "2018-05-02T00:52:13.000Z",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0fb5adbacb6374326"
+                            }
+                        }
+                    ],
+                    "ClientToken": "a4b58c79-574c-b603-d98a-9871e51762dd_subnet-130c595b_1",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::471850042218:instance-profile/dev-usgs_ecs_instance_profile",
+                        "Id": "AIPAI33U6DZRIK7FIMEVW"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2018-05-02T00:52:12.000Z",
+                                "AttachmentId": "eni-attach-4a2b63bf",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "dev-usgs_datacube_default",
+                                    "GroupId": "sg-5541c129"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "06:74:15:c4:e0:aa",
+                            "NetworkInterfaceId": "eni-22791d2b",
+                            "OwnerId": "471850042218",
+                            "PrivateDnsName": "ip-10-0-11-54.us-west-2.compute.internal",
+                            "PrivateIpAddress": "10.0.11.54",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-0-11-54.us-west-2.compute.internal",
+                                    "PrivateIpAddress": "10.0.11.54"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-130c595b",
+                            "VpcId": "vpc-5f6a8326"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "dev-usgs_datacube_default",
+                            "GroupId": "sg-5541c129"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Workspace",
+                            "Value": "dev-usgs"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "dev-usgs_ecs_datacube_default"
+                        },
+                        {
+                            "Key": "Cluster",
+                            "Value": "datacube"
+                        },
+                        {
+                            "Key": "Instance_group",
+                            "Value": "default"
+                        },
+                        {
+                            "Key": "Owner",
+                            "Value": "YOUR EMAIL HERE"
+                        },
+                        {
+                            "Key": "Created_by",
+                            "Value": "terraform"
+                        },
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "dev-usgs_datacube_default"
+                        }
+                    ],
+                    "VirtualizationType": "hvm"
+                }
+            ],
+            "OwnerId": "471850042218",
+            "RequesterId": "903220451833",
+            "ReservationId": "r-0866e5a8f6dc6c1f7"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-005bdb005fb00e791",
+                    "InstanceId": "i-0e73f45e8d193ef8c",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "bucketlauncher2-keypair",
+                    "LaunchTime": "2019-05-02T16:51:55.000Z",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-west-2a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-23-88.us-west-2.compute.internal",
+                    "PrivateIpAddress": "172.31.23.88",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-35-160-175-106.us-west-2.compute.amazonaws.com",
+                    "PublicIpAddress": "35.160.175.106",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-294c934f",
+                    "VpcId": "vpc-ce78f4a8",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2019-05-02T16:51:56.000Z",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0a1c42e1c1dbe809c"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-35-160-175-106.us-west-2.compute.amazonaws.com",
+                                "PublicIp": "35.160.175.106"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2019-05-02T16:51:55.000Z",
+                                "AttachmentId": "eni-attach-0840e76044bd70ad2",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "launch-wizard-1",
+                                    "GroupId": "sg-47e9033a"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:58:04:1f:4f:14",
+                            "NetworkInterfaceId": "eni-039007435fa38148f",
+                            "OwnerId": "471850042218",
+                            "PrivateDnsName": "ip-172-31-23-88.us-west-2.compute.internal",
+                            "PrivateIpAddress": "172.31.23.88",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-35-160-175-106.us-west-2.compute.amazonaws.com",
+                                        "PublicIp": "35.160.175.106"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-23-88.us-west-2.compute.internal",
+                                    "PrivateIpAddress": "172.31.23.88"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-294c934f",
+                            "VpcId": "vpc-ce78f4a8"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "launch-wizard-1",
+                            "GroupId": "sg-47e9033a"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "kubctl"
+                        }
+                    ],
+                    "VirtualizationType": "hvm"
+                }
+            ],
+            "OwnerId": "471850042218",
+            "ReservationId": "r-0a8349b3228609d7b"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0008325f0ded04d04",
+                    "InstanceId": "i-0e0a6ced89921eb8d",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "kubernetes.tony.k8s.local-c9:44:0d:70:47:e1:20:32:76:e3:87:e2:36:2c:2b:e5",
+                    "LaunchTime": "2019-05-02T17:26:35.000Z",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-west-2a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 48,
+                        "Name": "terminated"
+                    },
+                    "StateTransitionReason": "User initiated (2019-05-07 20:57:23 GMT)",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [],
+                    "ClientToken": "2dc5a9e6-557e-4186-841a-8c14566d638f_subnet-0fbe592b3366eb9dc_1",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [],
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "k8s.io/cluster-autoscaler/node-template/label/kops.k8s.io/instancegroup",
+                            "Value": "master-us-west-2a"
+                        },
+                        {
+                            "Key": "KubernetesCluster",
+                            "Value": "tony.k8s.local"
+                        },
+                        {
+                            "Key": "aws:autoscaling:groupName",
+                            "Value": "master-us-west-2a.masters.tony.k8s.local"
+                        },
+                        {
+                            "Key": "k8s.io/role/master",
+                            "Value": "1"
+                        },
+                        {
+                            "Key": "Name",
+                            "Value": "master-us-west-2a.masters.tony.k8s.local"
+                        }
+                    ],
+                    "VirtualizationType": "hvm"
+                }
+            ],
+            "OwnerId": "471850042218",
+            "RequesterId": "903220451833",
+            "ReservationId": "r-0b363e4da8623b859"
+        },
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0a00ce72",
+                    "InstanceId": "i-099f7bc4614831877",
+                    "InstanceType": "m4.xlarge",
+                    "KeyName": "datacube_ec2_index",
+                    "LaunchTime": "2018-05-18T12:32:38.000Z",
+                    "Monitoring": {
+                        "State": "enabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-west-2c",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-1-32.us-west-2.compute.internal",
+                    "PrivateIpAddress": "172.31.1.32",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "StateTransitionReason": "User initiated (2018-05-18 15:01:22 GMT)",
+                    "SubnetId": "subnet-1bc2ad40",
+                    "VpcId": "vpc-ce78f4a8",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2017-11-15T00:09:39.000Z",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0ca2455f22f1ead48"
+                            }
+                        }
+                    ],
+                    "ClientToken": "BhZeF1510704578146",
+                    "EbsOptimized": true,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::471850042218:instance-profile/aws_s3_access",
+                        "Id": "AIPAJFENXG2MGKET7K2N6"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2017-11-15T00:09:39.000Z",
+                                "AttachmentId": "eni-attach-d940ea3f",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "datacube_index",
+                                    "GroupId": "sg-77a6aa0a"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:61:83:30:4d:7a",
+                            "NetworkInterfaceId": "eni-ff5ea9fa",
+                            "OwnerId": "471850042218",
+                            "PrivateDnsName": "ip-172-31-1-32.us-west-2.compute.internal",
+                            "PrivateIpAddress": "172.31.1.32",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-1-32.us-west-2.compute.internal",
+                                    "PrivateIpAddress": "172.31.1.32"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-1bc2ad40",
+                            "VpcId": "vpc-ce78f4a8"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "datacube_index",
+                            "GroupId": "sg-77a6aa0a"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "datacube_index"
+                        },
+                        {
+                            "Key": "Owner",
+                            "Value": "harshu.rampur@ga.gov.au"
+                        }
+                    ],
+                    "VirtualizationType": "hvm"
+                }
+            ],
+            "OwnerId": "471850042218",
+            "ReservationId": "r-0c1a922788cdecf32"
+        }
+    ]
+}
