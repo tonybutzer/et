@@ -1,5 +1,9 @@
 ## Data Wrangle
 
+## rclone is THE BOMB!
+
+`rclone copy MODIS_NDVI/ et-data:/ga-et-data/MODIS_NDVI/  -P`
+
 ### Notes
 
 ### Air Temperature
