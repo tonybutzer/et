@@ -1,5 +1,20 @@
 # Infrastructure
 
+## Jupyter Sandbox in GA Space
+
+### Quick notes
+
+
+- tfinfra/et-gahub1
+	- make start
+	- git clone et done automatically as part of terraform
+- cd pkg/tljh
+	- make services
+	- make all
+- sign in hub as ubuntu
+	- add users from users.txt in pkg/tljh
+
+
 ## Project Website
 
 1. Complete terraform templates and launch - DONE
