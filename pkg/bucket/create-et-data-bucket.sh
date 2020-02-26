@@ -10,12 +10,13 @@ echo " Hi from Tony!"
 
 ## make the bucket
 
-BUCKETNAME='ga-et-data-west'
+BUCKETNAME='ga-et-data'
 REGION='us-west-2'
 
 #aws s3api create-bucket --bucket ${BUCKETNAME} --region ${REGION}
+aws s3api create-bucket --bucket ${BUCKETNAME} --region ${REGION} --create-bucket-configuration LocationConstraint=${REGION}
 
-aws s3 mb s3://${BUCKETNAME}
+#aws s3 mb s3://${BUCKETNAME}
 
 ## List the Bucket
 echo "THE ODC bucket list is as follows:"

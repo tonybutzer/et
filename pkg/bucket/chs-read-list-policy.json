@@ -9,7 +9,7 @@
                 "AWS": "arn:aws:iam::574826924367:root"
             },
             "Action": "s3:ListBucket",
-            "Resource": "arn:aws:s3:::ga-et-data-west"
+            "Resource": "arn:aws:s3:::ga-et-data"
         },
         {
             "Sid": "GetFrom-usgs-CHS-aws",
@@ -18,7 +18,7 @@
                 "AWS": "arn:aws:iam::574826924367:root"
             },
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::ga-et-data-west/*"
+            "Resource": "arn:aws:s3:::ga-et-data/*"
         }
     ]
 }
