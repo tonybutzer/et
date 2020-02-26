@@ -3,7 +3,7 @@ start:
 
 stop:
 	/usr/local/bin/terraform destroy
-	./renameDefunct.sh et-webserver1
+	./renameDefunct.sh et-xfer1
 
 
 git:
