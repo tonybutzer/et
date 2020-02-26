@@ -14,6 +14,7 @@ services:
 
 shared:
 	sudo cp -r files /etc/skel
+	sudo cp -r files ~jupyter-ubuntu
 
 
 ubuntu:
