@@ -15,6 +15,7 @@ Welcome to juphub's documentation!
    01project_charter.md
    10project_plan
    15conops.md
+   18sandbox.md
    20infra.md
    30Data.md
    35data_wrangle.md
