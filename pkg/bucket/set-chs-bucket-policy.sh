@@ -1,6 +1,6 @@
 ## Set Bucket Policy
 
-BUCKETNAME='ga-et-data-west'
+BUCKETNAME='ga-et-data'
 
 
 aws s3api put-bucket-policy --bucket ${BUCKETNAME} --policy file://chs-read-list-policy.json
