@@ -14,9 +14,9 @@ services:
 
 shared:
 	sudo mkdir -p /srv/data/code
-	(cd /etc/skel && sudo ln -s /srv/data/code code)
 	sudo cp files/* /srv/data/code
-	sudo chown -R  jupyter-ubuntu:jupyter-ubuntu /srv/data/code
+	sudo ln -s /srv/data/code /etc/skel/code)
+	echo maybe sudo chown -R  jupyter-ubuntu:jupyter-ubuntu /srv/data/code
 
 
 ubuntu:
