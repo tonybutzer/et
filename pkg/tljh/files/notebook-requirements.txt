@@ -3,3 +3,5 @@ matplotlib_venn
 pandas
 seaborn
 plotly
+rasterio
+GDAL

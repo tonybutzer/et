@@ -13,7 +13,18 @@ lunch-lib:
 	(cd opt/lite-stac/lib; sudo -E make build-root)
 	sudo -E conda install gdal
 
+et-depends: notebook-lib gdal-pain
 
 notebook-lib:
+	# SHould be run as ubuntu ROOT for tljh - all user ride for free
 	sudo -E pip install -r notebook-requirements.txt
 
+
+gdal-pain:
+	sudo add-apt-repository ppa:ubuntugis/ppa && sudo apt-get update
+	sudo apt-get update
+	sudo apt-get install gdal-bin
+	sudo apt-get install libgdal-dev
+	export CPLUS_INCLUDE_PATH=/usr/include/gdal
+	export C_INCLUDE_PATH=/usr/include/gdal
+	pip install GDAL
