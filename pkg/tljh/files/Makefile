@@ -1,6 +1,9 @@
 git:
-	(cd .. ; git clone http://github.com/tonybutzer/notebook)
-	(cd .. ; git clone http://github.com/tonybutzer/lunch)
+	# RUN as ordinary users
+	mkdir opt
+	(cd opt ; git clone http://github.com/tonybutzer/notebook)
+	(cd opt ; git clone http://github.com/tonybutzer/lunch)
+	(cd opt ; git clone http://github.com/ecolstat/VegET)
 
 
 lunch-lib:
