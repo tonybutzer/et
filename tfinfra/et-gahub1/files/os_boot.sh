@@ -12,4 +12,6 @@ sudo mkdir -p /opt
 
 sudo chown -R ubuntu /opt
 
+sudo apt-get install -y make
+
 # (cd /opt/et//pkg/os; ./setup_os.sh)
