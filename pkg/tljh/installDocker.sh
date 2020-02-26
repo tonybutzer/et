@@ -19,8 +19,6 @@
 
  sudo docker run hello-world
 
- sudo docker pull butzer.hopto.org/dog
-
 
 # add ordinary user to the docker universe
  #sudo usermod -aG docker $USER
