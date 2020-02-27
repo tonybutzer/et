@@ -1,5 +1,75 @@
 # Notes
 
+## From MAC - Find Time
+
+Subject: Re: Additional web links from Mac
+
+ 
+
+G4G EE Big Data Structures walkthrough: https://bit.ly/2mi5T0q
+
+ 
+
+Mac
+
+From: Friedrichs, MacKenzie (Contractor) O
+Sent: Wednesday, February 26, 2020 9:18 AM
+To: Butzer, Tony (Contractor) <butzer@contractor.usgs.gov>
+Cc: Kagone, Stefanie (Contractor) <skagone@contractor.usgs.gov>; Parrish, Gabriel E <gparrish@contractor.usgs.gov>
+Subject: Additional web links from Mac
+
+ 
+
+Tony - here is an overload of web resources that relate to our discussions in one way or another.
+
+ 
+
+https://earthengine.google.com/timelapse/ - One giant global GIF!
+
+https://github.com/openforis/sepal - The ongoing FAO development project harmonizing multiple cloud vendors (AWS, GCP/GEE) at once. (more architecture-diagrams)
+
+https://datasetsearch.research.google.com/  - Newly available general data search warehouse. Try "MODIS NDVI Global".
+
+ 
+
+GEE  heavy
+
+https://developers.google.com/earth-engine - all the developer docs, many tutorials, API info, etc. 
+
+https://signup.earthengine.google.com/ - use a gmail account for free access.
+
+https://developers.google.com/earth-engine/datasets - The what's-available-in-GEE library.
+
+EE datasets Tour presenation: http://bit.ly/eecatalog
+
+G4G Presentaions: https://sites.google.com/earthoutreach.org/geoforgood19/agenda/breakout-sessions?authuser=0
+
+ 
+
+EE stac-catalog
+
+https://console.cloud.google.com/storage/browser/earthengine-stac/catalog?project=google.com:compact-sunset-791&authuser=0
+
+and
+
+https://gee.stac.cloud/?t=catalogs
+
+ 
+
+Advanced time series visualization (python notebooks in Colaboratory, EE focused) + See folium mapping example here: https://colab.research.google.com/drive/1bo0t-Oodq2K68t_v42DoNg8OpvSq_Nr0#scrollTo=DUBNDgqyiPZW
+
+ 
+
+ 
+
+Mac Friedrichs
+
+Remote Sensing Scientist | Technical Support Services Contract (TSSC)
+
+KBR Contractor to the USGS Earth Resources Observation and Science (EROS) Center 
+
+Office: 605-594-2841 | Email: mfriedrichs@contractor.usgs.gov
+
 ## Tactical Todo
 
 1. Finish Web Site Today - the infrastructure

@@ -18,9 +18,11 @@ Welcome to juphub's documentation!
    18sandbox.md
    20infra.md
    30Data.md
+   33data_discovery.md
    35data_wrangle.md
    40Code.md
    50cloud.md
+   80scrum.md
    90ODC_synergy.md
    91Landfire_synergy.md
    99tony_notes.md
