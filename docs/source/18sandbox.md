@@ -17,11 +17,11 @@
 2. login with your last name
 3. YOU SET THE PASSWORD THE FIRST TIME - so jot it down
 4. Building your notebook ecosystem:
-	- make -f code/Makefile git
-	- make -f code/Makefile lunch-lib
+	- make -f files/Makefile git
+	- make -f files/Makefile lunch-lib
 5. Tony is the admin dude for this - he can reset this or do a master restart
 
 
 ### Technical Stack
 
-1. uses TlJH - fairly nice for this purpose
+1. uses TLJH - fairly nice for this purpose
