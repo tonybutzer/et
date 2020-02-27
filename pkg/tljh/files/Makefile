@@ -27,4 +27,4 @@ gdal-pain:
 	sudo apt-get install libgdal-dev
 	(export CPLUS_INCLUDE_PATH=/usr/include/gdal; \
 	 export C_INCLUDE_PATH=/usr/include/gdal; \
-	 sudo -E pip install GDAL==2.2 )
+	 sudo -E pip install GDAL==2.4 )

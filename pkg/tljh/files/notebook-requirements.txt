@@ -4,4 +4,3 @@ pandas
 seaborn
 plotly
 rasterio
-GDAL
