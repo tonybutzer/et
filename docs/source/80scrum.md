@@ -26,4 +26,5 @@
 4. Data Discovery - started some notes here
 	[LPDAAC DATA WOW CLICK HERE:](http://44.226.205.97/33data_discovery.html#lpdaac)
 5. More to Come
+6. Tony should get better at packaging python pip/conda inside a venv with tljh - I know right?
 
