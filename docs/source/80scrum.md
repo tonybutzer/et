@@ -8,10 +8,11 @@
 	- probaly focus on understanding the data assets in the cloud
 		- the vsis3 stuff
 	- explore visualizing the data
-	- longer term seek out ways to just ise data lakes
+	- longer term seek out ways to just use data lakes in lieu of data portals and downloads and cloud pushes...
 	- with Landsat C2 maybe use NDVI scalled to 250 meters via ODC scaling 
 	- help me understand all this data summing and interpolation - or just keep you and darin involved in that part of the project.
 	- do we have code that runs on a pc with no GEE libraries - could lift and shift and modify that code?
+	- Roles and assignments - where should Gabe be focusing?
 2. Tony
 	- any benefit in mapping MODIS NDVI into xarrays - maybe even using ODC middleware?
 
