@@ -4,6 +4,29 @@
 
 `rclone copy MODIS_NDVI/ et-data:/ga-et-data/MODIS_NDVI/  -P`
 
+```
+tony@qotom ~ $ rclone copy MODIS_NDVI/ et-data:/ga-et-data/MODIS_NDVI/  -P 
+Transferred:   	   43.191G / 46.937 GBytes, 92%, 1.255 MBytes/s, ETA 50m56s
+Transferred:         1009 / 1099, 92%
+Elapsed time:   9h47m18.8s
+Transferring:
+ *            2016/2016335.1_km_16_days_NDVI.tif: 91% /131.284M, 66.102k/s, 2m51s
+Transferred:   	   43.241G / 46.937 GBytes, 92%, 1.255 MBytes/s, ETA 50m15s
+Transferred:         1009 / 1099, 92%
+Elapsed time:   9h47m59.3s
+Transferring:
+ *            2016/2016335.1_km_16_days_NDVI.tif: 95% /131.284M, 106.963k/s, 1m0s
+Transferred:   	   43.959G / 46.937 GBytes, 94%, 1.255 MBytes/s, ETA 40m29s
+Transferred:         1033 / 1099, 94%
+Elapsed time:   9h57m47.3s
+Transferring:
+ *            2016/2016343.1_km_16_days_NDVI.tif: 27% /131.284M, 296.605k/s, 5m29s
+ *            2016/2016344.1_km_16_days_NDVI.tif: 22% /131.284M, 312.016k/s, 5m32s
+ *            2016/2016345.1_km_16_days_NDVI.tif: 19% /131.284M, 281.528k/s, 6m22s
+ *            2016/2016346.1_km_16_days_NDVI.tif: 17% /131.284M, 405.909k/s, 4m33s
+
+```
+
 ### Notes
 
 ### Air Temperature
