@@ -35,14 +35,14 @@
 ### Fav NoteBooks I
 opt/notebook/05-Science-Outreach-Evaporation-Etc/00-et/00-bucket/00-AWS-S3-command-line-tutorial-tony.ipynb
 
-*Feel Free to Movae about The Country!*
+*Feel Free to Move about The Country!*
 
 ## Users
 
 ```
 kagone
 butzer
-shulte
+schulte
 parrish
 ```
 
