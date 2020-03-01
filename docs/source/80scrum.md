@@ -2,6 +2,17 @@
 
 ## WIP
 
+### Mar 1, 2020 - Its really March?
+
+**sharpen the saw today**
+
+### Pangeo
+
+[PANGEO SALES PITCH Excellent](https://www.youtube.com/watch?v=VNfpGIIjL3E)
+
+
+[avoid death by powerpoint](https://www.youtube.com/watch?v=Iwpi1Lm6dFo)
+
 ### Feb 29, 2020 - Steffi, Gabe, Darin
 
 ### This project is taking off 
@@ -20,11 +31,13 @@
 Started a kanban to play with here:
 [Kanboard KANBOARD kanboard KANBAN](http://44.226.205.97:8080/board/2)
 
+`you can login with the same user and password as the jupyter lab sandbox`
+
 xarray manual [Man](http://xarray.pydata.org/en/stable/generated/xarray.Dataset.coords.html)
 
 
 **Discussion Notes**
-1. Briefly discuss Makefile
+1. Briefly discuss Makefile and git minimalism - add,commit,push
 2. Determine if you are a gui or chewy user
 	- The Jupyter Text Editors
 	- Versus `vim` and the dreaded terminal
