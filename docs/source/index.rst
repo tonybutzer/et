@@ -22,6 +22,7 @@ Welcome to juphub's documentation!
    35data_wrangle.md
    40Code.md
    50cloud.md
+   70nps_synergy.md
    80scrum.md
    90ODC_synergy.md
    91Landfire_synergy.md

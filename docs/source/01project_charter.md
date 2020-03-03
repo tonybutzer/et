@@ -247,7 +247,7 @@ butzer@contractor.usgs.gov
 4. Python Skills
 5. VegET expertise
 6. Works in a liberating Academic University Environment - (```Valued Perspective```)
-7. Hopes to attend the June Open Data Cube Workshop at EROS
+7. Hopes to attend the August Open Data Cube Forum 2020 at EROS
 	- This Workshop promises to unleash some ```revolutionary``` capabilities in the cloud for SCIENCE!
 	- This Workshop will be well attended by an enthusiatic cadre of International World Class Scientists
  
