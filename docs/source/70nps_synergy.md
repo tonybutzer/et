@@ -204,3 +204,8 @@ Actuals versus model estimates.
 	- Day 1
 
 ![air temp](https://raw.githubusercontent.com/tonybutzer/assets/master/et/air_temp_day_1.PNG)
+
+2. Precipitation
+	- Sioux Falls for 2016 from an xarray
+
+![sioux falls rain](https://raw.githubusercontent.com/tonybutzer/assets/master/et/precipitation_sioux_falls_by_way_xarray.PNG)
