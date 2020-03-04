@@ -1,5 +1,8 @@
 # National Parks Service Synergy
 
+[annual maps NPS awesome Click HERE:](https://npwbanalres.s3-us-west-2.amazonaws.com/annual_static_norm.html)
+
+
 ### The Big Vision EarthMAP
 
 EarthMap
@@ -62,6 +65,11 @@ et is mostly project startup and DevOps stuff
 1. weekly telecons
 2. shared github repo
 3. aws cloud sandboxes
+	- CHS - cloud hosting solution
+	- github and chs github
+	- esip pangeo
+	- GeoscienceAustralia Sandboxes
+	- miniPangeo
 
 ## Philosophy Approach
 
