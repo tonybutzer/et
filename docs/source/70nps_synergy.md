@@ -199,3 +199,8 @@ Actuals versus model estimates.
 	- Day 200
 
 ![modis ndvi](https://github.com/tonybutzer/assets/blob/master/et/modis-ndvi-day1-day200.png?raw=true)
+
+2. Air Temperature
+	- Day 1
+
+![air temp](https://raw.githubusercontent.com/tonybutzer/assets/master/et/air_temp_day_1.PNG)
