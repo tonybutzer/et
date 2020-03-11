@@ -33,3 +33,25 @@ https://www.usgs.gov/special-topic/drought/science/watersmart-evapotranspiration
 
 
 ![DROUGHT TX](https://www.arcgis.com/sharing/rest/content/items/a277fa351d9c40218495957632c35396/resources/1567024534058.jpeg?w=1600)
+
+
+> Phenology is the study of the timing of recurring biological
+cycles and their connection to climate (White and Thomton
+1997; White et al. 2009). It can influence the exchange of
+energy, water vapor, and momentum between the land surface
+and the atmosphere and, therefore, is critical to understand the
+global carbon and water cycles (Cong et al. 2013). Changes in
+phenology also affect the abundance and distribution of spe-
+cies (Enquist et al. 2014). In turn, changes in the timing of
+vegetation phenology are widely considered to be one of the
+most sensitive biological responses to climate change and an
+excellent predictor of changes already underway (IPCC
+2013). An earlier occurrence of spring phenology, which
+closely correlates with rising temperatures, has been observed...
+
+from  
+**Comparison of the driving forces of spring phenology
+among savanna landscapes by including combined spatial
+and temporal heterogeneity**
+
+> Likai Zhu &Jane Southworth &Jijun Meng
