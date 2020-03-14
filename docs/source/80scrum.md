@@ -20,11 +20,13 @@
 	- **IMPORTANT NOTE STEFFI** - Rich in this video shows reading text files like the ETo in a non arcpy way using GDAL
 4. Worked on converting the big input soil files to Cloud Optimized Geotiffs
 	- significant storage savings and greatly reduces access times
-	- still some occasional bumps when using rasterio and vsis3 - likely workarounds cwcould be are easilily built in python
+	- still some occasional bumps when using rasterio and vsis3 - likely workarounds could be are easilily built in python
+		- this bump applies to COG and stripped TIF files 
 5. Continuing to look at ways to stand-up and exploit Kubernetes in the cloud.
 6. Discovered virtual backgrounds for the Zoom videoconferencing application - so now I can be telepresent from the Black Hills.
 	- no green screen needed - 
 	- also teams has a blur feature - not as cool - but still useful
+7. EPSCoR - another new term: Experimental Program to Stimulate Competitive Research.
 
 ### Mar 12 2020
 
