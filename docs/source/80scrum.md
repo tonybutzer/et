@@ -8,19 +8,19 @@
 
 1. Loaded the code from Mike Tercek here 
 	- https://github.com/tonybutzer/npset/tree/master/fromMikeT
-	- University of Idaho Nothern Knowledge Network
+	- University of Idaho Northern Knowledge Network
 	- THREDDS server
 2. Started researching what a thredd server was.
 3. Found a great video here
 	- [Serving PRISM Climate Group data on the THREDDS Data Server](https://www.youtube.com/watch?v=VIuFLkN_FpM)
-	- Rich Signell is definitely "a person in our neigborhood"
-	- neat way to agregate input and output data for our models
+	- Rich Signell is definitely "a person in our neighborhood"
+	- neat way to aggregate input and output data for our models
 	- example python and matplotlib access as well as viewers etc.
 	- Rich will be a keynote at the Open Data Cube Forum in August 2020 at EROS
 	- **IMPORTANT NOTE STEFFI** - Rich in this video shows reading text files like the ETo in a non arcpy way using GDAL
 4. Worked on converting the big input soil files to Cloud Optimized Geotiffs
 	- significant storage savings and greatly reduces access times
-	- still some occasional bumps when using rasterio and vsis3 - likely workarounds could be are easilily built in python
+	- still some occasional bumps when using rasterio and vsis3 - likely workarounds could be are easily built in python
 		- this bump applies to COG and stripped TIF files 
 5. Continuing to look at ways to stand-up and exploit Kubernetes in the cloud.
 6. Discovered virtual backgrounds for the Zoom videoconferencing application - so now I can be telepresent from the Black Hills.
