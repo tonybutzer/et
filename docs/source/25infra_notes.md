@@ -9,6 +9,7 @@ https://github.com/tonybutzer/data-curation/tree/master/00proj/deploy/bucket
 https://labs.detectify.com/2017/07/13/a-deep-dive-into-aws-s3-access-controls-taking-full-control-over-your-assets/
 
 
+https://www.serverlab.ca/tutorials/dev-ops/infrastructure/terraforming-your-aws-environment/
 
 #### Quick Excerpt
 

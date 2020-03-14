@@ -2,6 +2,58 @@
 
 ## WIP
 
+### March 14, 2020
+
+#### Tony
+
+1. Loaded the code from Mike Tercek here 
+	- https://github.com/tonybutzer/npset/tree/master/fromMikeT
+	- University of Idaho Nothern Knowledge Network
+	- THREDDS server
+2. Started researching what a thredd server was.
+3. Found a great video here
+	- [Serving PRISM Climate Group data on the THREDDS Data Server](https://www.youtube.com/watch?v=VIuFLkN_FpM)
+	- Rich Signell is definitely "a person in our neigborhood"
+	- neat way to agregate input and output data for our models
+	- example python and matplotlib access as well as viewers etc.
+	- Rich will be a keynote at the Open Data Cube Forum in August 2020 at EROS
+	- **IMPORTANT NOTE STEFFI** - Rich in this video shows reading text files like the ETo in a non arcpy way using GDAL
+4. Worked on converting the big input soil files to Cloud Optimized Geotiffs
+	- significant storage savings and greatly reduces access times
+	- still some occasional bumps when using rasterio and vsis3 - likely workarounds cwcould be are easilily built in python
+5. Continuing to look at ways to stand-up and exploit Kubernetes in the cloud.
+6. Discovered virtual backgrounds for the Zoom videoconferencing application - so now I can be telepresent from the Black Hills.
+	- no green screen needed - 
+	- also teams has a blur feature - not as cool - but still useful
+
+### Mar 12 2020
+
+### Steffi
+
+I am converting the input data to numpy arrays, hope to be done soon, i am waiting for that right soil data and some more temp data to finish processing.
+
+test notebooks to go here:
+
+- 00-notebooks directory in your VegET rep https://github.com/skagone/cloud-veg-et
+
+
+
+I guess we will be doing a lot more things virtually for a while. I had a good - 2hour conversation with Darin Schulte --- yesterday and a zoom session to meet him - the LSP Phenology is all about NDVI so 
+
+•	i directed him to the sample NDVI data we have in the cloud - he may do something over the Delaware River Basin as a first test. 
+•	I think if he can create a notebook - I would be happy to wrap that into a library that we can reuse and later scale. –
+•	He indicated Phenology is not so much about lines of code as it is about I/O and examining large stacks of NDVI
+•	We will see what infrastructure topologies will match that alg.
+•	I will also play with COGS on some of the 4.9 Gig files to see if I can improve the performance of accessing these larger critters.
+•	Played a little with Kanban in the github – anything is better than Jira  😊
+•	Added a few folks to our International and Open Sandbox – Mahsa, Cole and Aaron to help build a cadre of Pangeo experts
+o	I am a firm believer in the cloud – it’s the best compute infrastructure I have seen in 40 years.
+
+-	Stay Healthy Everyone
+
+-	Cheers
+
+
 ### Mar 10, 2020
 
 #### Tony
