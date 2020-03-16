@@ -41,3 +41,13 @@ aws s3api put-bucket-policy --bucket ${BUCKETNAME} --policy file://optBucketPoli
 echo "The bucket policy is now:"
 aws s3api get-bucket-policy --bucket ${BUCKETNAME}
 ```
+
+
+## AWS Cost Reviews
+
+- Cost Explorer by Region
+	- Monitor Services in Sydney
+	- Export as CSV
+		- Using Resource Groups
+
+1. I need to expand on the detail here

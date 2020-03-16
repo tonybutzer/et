@@ -2,6 +2,24 @@
 
 ## WIP
 
+### March 16, 2020
+
+#### Tony
+
+#### Mike Tercek
+
+![](http://www.yellowstoneecology.com/about/mike_tercek.jpg)
+
+[Tercek in Video - worth watching](https://www.nps.gov/yell/learn/photosmultimedia/indepth-watersheddown.htm)
+
+
+[NPS Catalog](http://www.yellowstone.solutions/thredds/catalog/daily_or_monthly/monthly/catalog.html)
+
+[Climate Analyzer - Cool!](http://www.climateanalyzer.us/raws/kniferiverraws/graph_choices)
+
+![Model Output](http://www.climateanalyzer.us/raws/kniferiverraws/graphs)
+
+
 ### March 14, 2020
 
 #### Tony
@@ -27,6 +45,8 @@
 	- no green screen needed - 
 	- also teams has a blur feature - not as cool - but still useful
 7. EPSCoR - another new term: Experimental Program to Stimulate Competitive Research.
+
+![costs](https://github.com/tonybutzer/assets/blob/master/et/costsAWS-mar14.png?raw=true)
 
 ### Mar 12 2020
 
