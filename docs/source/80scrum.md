@@ -1,6 +1,11 @@
 # SCRUM - running
 
 ## WIP
+### March 18, 2020
+
+#### Juxtapose
+
+[juxta example temperature cold day](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=1da064a6-68a6-11ea-b9b8-0edaf8f81e27)`
 ### March 17, 2020
 
 ### Git Memory
