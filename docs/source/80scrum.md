@@ -7,6 +7,15 @@
 
 [https://gitmemory.com/tonybutzer](https://gitmemory.com/tonybutzer)
 
+![](https://avatars2.githubusercontent.com/u/1872600?s=460&v=4)
+
+[https://github.com/rsignell-usgs](https://github.com/rsignell-usgs)
+
+[https://gitmemory.com/rsignell-usgs](https://gitmemory.com/rsignell-usgs)
+
+[https://github.com/friedrichknuth/covid_dashboard](https://github.com/friedrichknuth/covid_dashboard)
+
+
 #### Animations and Prism Science Data
 
 #### Temperature
