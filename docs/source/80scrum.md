@@ -1,6 +1,13 @@
 # SCRUM - running
 
 ## WIP
+### March 17, 2020
+
+#### Animations and Prism Science Data
+
+#### Temperature
+
+![animate prism data](https://github.com/tonybutzer/npset/blob/master/00-notebooks/82-opendap-rich-signell-examples-prism-virtual-datasets/10hot_temp.gif?raw=true)
 
 ### March 16, 2020
 

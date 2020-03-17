@@ -13,7 +13,12 @@
 
 ## USER TL;DR
 
-1. THE IP is http://34.220.137.6 ##- at least today
+## http://18.237.137.20
+
+[Connect to the SANDBOX HERE:](http://18.237.137.20)
+
+
+1. THE IP is http://18.237.137.20 ##- at least today
 2. login with your last name
 3. You set the password the first time you login - so jot it down
 	- tony to preset this for a while
