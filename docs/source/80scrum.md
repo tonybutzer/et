@@ -1,7 +1,101 @@
 # SCRUM - running
 
 ## WIP
+### March 21, 2020
+
+### Gabe/Steffi
+
+Steffi & Gabe have most of the data inputs aligned in pickled numpy arrays 
+
+1. This is a very important step as outlined in the following high level steps.
+	- Gather or Locate on the web all critical input data
+		- precipitation
+		- temperature
+		- potential ET
+		- NDVI
+		- soils
+2. **Align Raster Data using GDAL tools**
+	- store as numpy arrays
+	- explore use of xarrays to collate and self document numpy gamut
+3. Run Models
+	- more detail needed HERE
+4. Display, Visualize, and Host Vector and Raster Results
+
+**SOILS**
+
+1. still some work to get the right detailed soil input from Norm Bliss or alternate venue.
+
+
+
+### Darin
+
+![](https://plotly.github.io/images/dashboard-carousel.jpg)
+
+1. Darin has been simplifying the Phenology models 
+	- creating a flattened lookup table for soil type from NLDC
+	- Using GEE to explore the data with a plan to migrate to AWS open source
+2. Darin is exploring the tools for visualizing point data with a geographic reference plus ability to drill down
+	- visual interactive dashboards
+	- exploring Jupyter tools using Holoviz
+	- encouraged by the capabilities in the python Plotly/Dash Library
+	- Darin demoed early prototypes on March 20, 2020
+
+#### Assignment
+
+Darin will be exploring the sandbox at 
+
+```
+host sbet.hopto.org
+sbet.hopto.org has address 18.237.137.20
+```
+
+1. with emphasis on looking at the sample years for MODIS NDVI
+2. Darin should elicit tony's help if he gets stuck at any time
+3. The NDVI data will eventually be curated by the LP DAAC and just be available in buckets in AWS Oregon
+
+The data **bucket** is `ga-et-data` and the prefix is `MODIS_NDVI/`
+
+**EXAMPLE LS**
+
+```
+aws s3 ls ga-et-data/
+                           PRE Cloud_Veg_ET/
+                           PRE MODIS_NDVI/
+                           PRE inputsv0/
+                           PRE lunch/
+                           PRE steffi/
+
+
+aws s3 ls ga-et-data/MODIS_NDVI/
+                           PRE 2013/
+                           PRE 2014/
+                           PRE 2015/
+                           PRE 2016/
+
+```
+
+### Tony
+
+1. Tony is working on moving and organizing data in the cloud
+2. Starting with the numpy pickled arrays located on Windows Shares
+3. Gained permision to access the `watersmartfs` share.
+4. Created a docker container that has both a CIFs [samba like] mount and rclone to push numpy to the cloud underneath the much more versatile linux OS
+5. Tony is exploring the S3FS mounting options from cloud based systems and notebooks - very promising - abstracts away the unique S3 AWS specific access methods for bucket objects [files].
+	- this work is in npset/pkg github of course.
+
+
 ### March 18, 2020
+
+### Darin
+
+> Tony, I have an example of the GEE results and a rough notebook of interactive data visualization for the phenology library. Still a few things to iron out to get the demo running, but we could talk about getting it up with the other notebooks, and how the inputs were generated in GEE, etc.. 
+
+I'll keep trying to get the quirks figured out in the demo notebook, hopefully tomorrow night, and I'll be in touch to see about sharing it with everyone.
+
+- From Renee
+
+https://geemap.readthedocs.io
+
 
 #### Juxtapose
 
@@ -42,7 +136,11 @@
 
 [Climate Analyzer - Cool!](http://www.climateanalyzer.us/raws/kniferiverraws/graph_choices)
 
+[Annual Static Summaries](https://npwbanalres.s3-us-west-2.amazonaws.com/annual_static_norm.html)
+
 ![Model Output](http://www.climateanalyzer.us/raws/kniferiverraws/graphs)
+
+![Deficit](https://npwbanalres.s3-us-west-2.amazonaws.com/annual_normalized_change.jpg)
 
 
 ### March 14, 2020
@@ -73,6 +171,18 @@
 7. EPSCoR - another new term: Experimental Program to Stimulate Competitive Research.
 
 ![costs](https://github.com/tonybutzer/assets/blob/master/et/costsAWS-mar14.png?raw=true)
+
+### Mar 12 2020
+
+### Steffi
+
+I am converting the input data to numpy arrays, hope to be done soon, i am waiting for that right soil data and some more temp data to finish processing.
+
+test notebooks to go here:
+
+- 00-notebooks directory in your VegET rep https://github.com/skagone/cloud-veg-et
+
+
 
 ### Mar 12 2020
 
@@ -248,16 +358,4 @@ Our results (historical and the GCM runs that are complete so far) are available
 http://www.yellowstone.solutions/thredds/catalog.html
 
 This would let you subset our results  to particular regions or times and compare them to your outputs. Maybe that would help at some point. I have this server running on a slow instance, so if you plan to do a lot of work with it, please let me know. I can boost it up to something more powerful.
-
-It was fun to talk to you and I'm looking forward to more collaboration. Feel free to write with any questions. I'll do the same!
-Mike
-
-
-- note - Thanks Mike for all of the help in bootstrapping our models in AWS
-
-
-
-
-
-
 
