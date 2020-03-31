@@ -206,7 +206,22 @@ Remote Sensing Scientist
 Innovate!, Inc., TSSC Contractor to the U.S. Geological Survey EROS Center, 
 Sioux Falls, SD 57198
 gparrish@contractor.usgs.gov
- 
+
+Gregory Rouze
+Remote Sensing Scientist II / Technical Support Services Contract (TSSC)
+KBR Contractor to the USGS Earth Resources Observation and Science (EROS) Center 
+Web: https://www.usgs.gov/centers/eros
+Office: 605-594-6840
+
+
+________________________________________
+Jordan Dornbierer
+Scientist | Technical Support Services Contract (TSSC)
+KBR Contractor to the USGS Earth Resources 
+Observation and Science (EROS) Center | Web: https://www.usgs.gov/centers/eros
+Office: +1 605.594.2810 | jdornbierer@contractor.usgs.gov
+________________________________________
+
 
 Tony Butzer
 OpenDataCube Cloud Engineer

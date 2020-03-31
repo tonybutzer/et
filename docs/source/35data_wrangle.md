@@ -27,6 +27,21 @@ Transferring:
 
 ```
 
+## Using the NETAPP
+
+1. docker container on llsrlscd04
+2. rclone container
+3. docker exec -it rclone bash
+4. su butzer
+
+```
+rclone copy /mnt/Projects/Cloud_Veg_ET/Data/ETO/ et-data:/ga-et-data/Cloud_Veg_ET/Data/ETO/ -P
+
+rclone copy /mnt/Projects/Cloud_Veg_ET/Data/NDVI et-data:/ga-et-data/Cloud_Veg_ET/Data/NDVI -P
+
+PPT
+```
+
 ### Notes
 
 ### Air Temperature

@@ -26,3 +26,10 @@
 2. Register in no cost ip space ```et.hopto.org```
 3. Document in github repo and as Infra_as_code - PENDING
 
+
+
+## K8s
+
+### Instance Sizing
+
+[https://learnk8s.io/kubernetes-node-size](https://learnk8s.io/kubernetes-node-size)

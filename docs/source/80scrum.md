@@ -1,6 +1,68 @@
 # SCRUM - running
 
 ## WIP
+
+### March 30, 2020 Gregory Rouze
+
+Interview Questions
+
+1. Landcover 
+	- NLCD
+	- This landcover data set
+		- format Raster? - Geotiff?
+	- How is different or Better than NLCD
+2. How long at EROS?
+3. Python?
+4. NetAPP Access?
+5. ET familiarity
+6. Personal Mission
+7. Linux?
+8. Interested in learning?
+	- AWS
+	- Jupyter Notebooks
+	- Python
+	- Scalable Processing
+	- Cloud Computing Concepts
+9. Describe your work with Darin Schulte
+
+
+
+
+
+### March 29,2020
+
+### Darin
+
+1. Darin created an excellent demo using **PLOTLY and DASH**
+2. [demo https://afternoon-crag-97068.herokuapp.com/](https://afternoon-crag-97068.herokuapp.com/)
+
+
+https://github.com/ecolstat/phenology_library/blob/master/app.py
+
+https://github.com/ecolstat/VegET
+
+
+### March 27, 2020 Steffi
+
+Good morning Tony,
+ 
+how are you today? I am doing well.
+I finally got all the data on that NetApp drive. 
+Now i will continue to work on the soil data to finish it.
+Cant wait to get to the next step.
+ 
+The coordinates i used for the Delaware River Basin in gdal are:
+```
+dimx = 1938
+dimy = 3124
+xmin = -77.022786801  # (left)
+ymin = 37.0082889025  # (bottom)
+xmax = -72.98980008   # (right)
+ymax = 43.5093469605  # (top)
+```
+ 
+
+
 ### March 21, 2020
 
 ### Gabe/Steffi
@@ -46,7 +108,7 @@ Darin will be exploring the sandbox at
 
 ```
 host sbet.hopto.org
-sbet.hopto.org has address 18.237.137.20
+sbet.hopto.org has address 34.215.234.93
 ```
 
 1. with emphasis on looking at the sample years for MODIS NDVI
