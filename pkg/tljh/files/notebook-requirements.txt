@@ -10,3 +10,4 @@ s3fs
 ffmpeg
 pika
 dash
+boto3
