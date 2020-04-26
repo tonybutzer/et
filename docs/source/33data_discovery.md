@@ -33,3 +33,5 @@ https://aws.amazon.com/earth/
 
 ### MOD13Q1 v6
 
+![](https://github.com/tonybutzer/assets/blob/master/et/great-skew.jpg?raw=true)
+

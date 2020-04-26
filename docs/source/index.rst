@@ -21,6 +21,7 @@ Welcome to juphub's documentation!
    33data_discovery.md
    35data_wrangle.md
    40Code.md
+   45scaling.md
    50cloud.md
    70nps_synergy.md
    80scrum.md
