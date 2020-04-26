@@ -2,6 +2,38 @@
 
 ## WIP
 
+### April 25, 2020
+
+My Actions for this week-end
+	
+1. Finish Transfer of 48State NDVI_filled data.
+2. compress 48State data
+3. Set up new USGS sandbox in AWS cloud
+	
+	
+Gabe  - write software to window and compute 18 year avg NDVI for sq_90W_50N.geojson
+	
+	Fix model code to run from new bucket dev-et-data
+	
+	Help get code ready to run in docker container
+
+ 
+
+
+#### Code Taxonomy - Bigger Pictures
+	
+1. Data Portal Extraction/Transfer Code - wrangles all 'level-0' data - sinusoidal NDVI - plus statics
+2. Data preparation Code - reproject, align, organize, tile, verify
+3. Model Runner Code - runs the model in a container - save the outputs in bucket as tiles
+3. Presentation and Bragging Code - mosaic into shinny apps and maps and papers - oh my!
+
+### April 15, 2020 Sandbox and Scaling
+
+### Delaware Gets HOT then COLD
+
+![hot](https://raw.githubusercontent.com/tonybutzer/npset/master/10-swarm-png-scale/00-01-swarm-png-app/tmax_animated.gif)
+
+
 ### March 30, 2020 Gregory Rouze
 
 Interview Questions
