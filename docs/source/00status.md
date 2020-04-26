@@ -2,7 +2,17 @@
 
 ---
 
-# Technical Status
+# Technical Status Veg_ET 2020
+
+
+## April 2020
+
+1. Darin has the Phenology Data Organized from Google Earth Engine
+2. Darin has a 'shinny app' using python; plotly; dash to visualized phenology as a function of land cover and over time as well as data set average phenology curve.
+3. Steffi and Gabe have the first Veg_ET model running in the cloud. This is a **significant** milestone since it means we have eliminated all of the proprietary ARC code.
+4. Tony has all of the data loaded for USA_48 and has begun work on the data wrangling strategy for all of North America.
+
+
 
 ![cartoon](https://raw.githubusercontent.com/tonybutzer/assets/master/et/et-infra-cartoon.png)
 
