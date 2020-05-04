@@ -16,9 +16,10 @@
 ## NEW USGS CHS SANDBOX
 ## http://10.12.68.72
 
+[Connect to the SANDBOX HERE:](http://10.12.68.72)
+
 ## http://34.215.234.93
 
-[Connect to the SANDBOX HERE:](http://34.215.234.93)
 
 
 1. THE IP is http://34.215.234.93 ##- at least today
