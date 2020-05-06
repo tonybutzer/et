@@ -90,6 +90,7 @@ System is defined to be the ET model system ( Data, Code, Infrastructure, and Mo
 2. Open Data Cube Annual Hackathon - February 2020 in Canberra, Australia
 3. ET Pangeo Project Kickoff `[THIS PROJECT]` - February 2020
 4. USGS -- GeoScience Annual Planning and Collaboration Group - big wigs pontificate - April 26-30, Annapolis MD. `[Doucette, Labahn, Jenn Lacey, Butzer]`
+5. PANGEO/pangeo.chs.usgs.gov open for use -- **May 1, 2010** - thanks Rich
 5. Collection-2 Public Release with STAC catalog and STAC API/Service - May 15, 2020
 6. Open Data Cube Science Workshop at EROS - hosted by Alex Leith and CEOS's Brian Killough - June 15, 2020 `[Jupyter, AWS, ODC, Collection-2 DEEP DIVE]`
 
@@ -98,40 +99,30 @@ System is defined to be the ET model system ( Data, Code, Infrastructure, and Mo
 ### Project Initiation
 - define phase strategy
 	- prototype, feasibility study, incubation
-	- first ad-hoc model test case - all of new mexico - rio 
+	- first ad-hoc model test case - Delaware - "Liberty and Independence" - my motto as well.
 	- define scalable production options and notional architecture [perhaps lightweight CDR and ORR]
 
 ### Conops Generation
 
 - define AOI
-- can we focus on the Landsat part first?
+	- Delaware River Basin
+	- Great Lakes 10 degree Tile
+	- 48 Status USA
+	- All of North America - wow - go Steffi
+- we focus on the NDVI Modis - with an eye on Landsat ?
+	- average daily observeations of NDVI over 2001-2018
 	- yearly time series xarrays?
 	- pixel math
 	- cloud masking?
 	- pruning of data based on qa or cloud cover?
 	- NDVI, NDWI etc ....
+	- Soils data preparation
+	- NDVI plus static data tifs
+	- numpy arrays 1st - then xarrays to exploit dask parallel supercomputers
 
 ### Data Prepare
 
-- indexing path rows into ODC
-- interim Albers Scenes
-- Collection-2 - the holy grail (notional ideal) of data lakes
-	- public
-	- global
-	- cataloged
-	- improved
-		- radiometric
-		- geometric
-		- no more pesky atmospheric uncertainties
-		- still clouds though - especially in Oregon and Vietnam
-- Other non-Landsat Model Data
-	- define list here
-	- what is the current method for fetching and storing today?
-		- how to map that to S3
-			- S3 Bucket strategies and permissions
-	- The model has been run in GEE - Converted to Python?
-	- Have we run the model on local linux servers with Python?
-	- Who are the code experts we can collaborate with the Colorado Dr.?
+See section below - still WIP
 
 
 ### Code Packaging and Evaluation
