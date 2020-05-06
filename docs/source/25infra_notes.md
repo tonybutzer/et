@@ -63,3 +63,6 @@ We can just create a public bucket policy for whatever bucket you need to have p
 
 https://support.chs.usgs.gov/display/CHSKB/CAB+-+Custom+Infrastructure+Request
 
+
+read:https://support.chs.usgs.gov/display/CHSKB/CAB+-+Custom+Infrastructure+Request
+
