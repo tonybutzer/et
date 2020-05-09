@@ -2,6 +2,54 @@
 
 ## WIP
 
+### Week Ending 5/8/2020
+
+The VEG_ET 2020 team finished another productive week.
+
+#### Accomplishments
+
+1. We have added Rich Signell science and cloud expert to the team - this is tremendous news for our team - and we are honored to have him as a member.
+2. We moved the model from the Aussie Account to the USGS Space - We will need a more formal account in USGS CHS soon. We need to discuss this with Gabriel Senay and Rich Signell on options.
+3. The model ran without modification in the new "more secure" CHS USGS sandbox with zero code modifications. AOI is Delaware River Basin.
+4. We worked hard on an integrated environment sharing the best of both development environments the Windows Desktop (ARC gui and pycharm) and the speed and expandability of cloud storage.
+5. We are working on reducing the S3 storage foot print to the least practical size for our needs.
+6. We tested COG compression using "DEFLATE" we plan to test various compression schemes.
+7. We continue to loop in Terry Sohl's [Greg and Jordan] crew on how to get data inputs to the AWS buckets and how to grab the many outputs from the model for quality inspections and science validation.
+
+#### Enabling Technologies
+1. fsspec
+	- https://readthedocs.org/projects/filesystem-spec/downloads/pdf/latest/
+
+2. fileZilla
+3. S3FS linux mounts from an S3 bucket "tree"
+4. python threads and queues
+
+#### Traditions
+
+We sent German Chocolate to Rich as part of the ET tradition for welcoming new ET Team members. After he begged -- we had to.
+
+![](https://raw.githubusercontent.com/tonybutzer/assets/master/et/Rich_Signell_s.jpg)
+
+
+
+
+#### Next Week
+
+1. Rich is looking at building xarrays using dask to create the average daily NDVI over the 48States. This will help demo the bigPANGEO and its dask cluster and the xarray/dask pattern. There are at least three dask python patterns Tony needs to learn.
+
+2. Gabe is working on transforming the model into modules so it can evolve with the project. We are working on getting Gabe the right pycharm tool-set - navigating the robust government approval process.
+
+3. Tony will continue to help with the Windows meets linux meets the Cloud items. And finally learn dask.
+
+4. We will likely work on the next steps plan and scope out the Great Lakes Tile by prototyping in the cloud. 
+
+... more to come ...
+
+... stay tuned ...
+
+... to be continued ...
+
+
 ### April 25, 2020
 
 My Actions for this week-end
