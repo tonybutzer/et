@@ -29,6 +29,26 @@ gdalinfo --config AWS_REQUEST_PAYER requester /vsis3_streaming/dev-et-data/compr
  
 ```
 
+#### AWS requester - sure does pay!
+
+```
+(pangeo) jovyan:~$ alias awr='aws --request-payer=requester'
+(pangeo) jovyan:~$ awr s3 ls dev-et-data/
+                           PRE 01drop/
+                           PRE NDVI_filled/
+                           PRE compressed/
+                           PRE etasw_2014/
+                           PRE etasw_2015/
+                           PRE greg_outputs/
+                           PRE level-1/
+                           PRE steff_2014/
+                           PRE steff_2015/
+                           PRE t50n-90e/
+                           PRE v1DRB_outputs/
+2020-05-05 23:59:59         62 Readme-bucket.md
+2020-05-05 23:50:00         13 tony.txt
+```
+
 ## Stopping TLJH
 
 ### Services
