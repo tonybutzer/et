@@ -58,6 +58,21 @@ et is mostly project startup and DevOps stuff
 1. Delaware River Basin
 
 
+## General Collaboration outside USGS
+
+    Yeah. Sophia Liu from Headquarters has the title of innovation specialist.
+    She'd be a major champion for this type of work.
+
+
+	[10:49 AM] Pieschke, Renee (Contractor) L
+    Yep. Just connected another one.
+    Jim Kreft from Water Science wants a way to get people outside of USGS into CHS.
+    I told him to talk to Rich.
+    I think Jim is Wisconsin-based?
+    if not HQ
+    I met him in DC
+
+
 
 
 ## Collaboration Communication Plan
