@@ -11,16 +11,16 @@
 So the primary goal for next week is:
 getting the North America "static" data placed in the cloud:
 
-	1. Precipitation
-	2. Soils
-	3. ETo
-	4. Ts
+1. Precipitation
+2. Soils
+3. ETo
+4. Ts
 	
-	meanwhile we will work with the NDVI we have and experiment with ways to create map-reduced daily averages in the miniPANGEO and the superPANGEO.
+- meanwhile we will work with the NDVI we have and experiment with ways to create map-reduced daily averages in the miniPANGEO and the superPANGEO.
 	
-	we will also debug the model calculations by comparing the cloud computed values with pragmatic calculations
+- we will also debug the model calculations by comparing the cloud computed values with pragmatic calculations
 	
-	we will also continue to organize the python code into useful classes.
+- we will also continue to organize the python code into useful classes.
  
 
 ### Week Ending 5/8/2020
