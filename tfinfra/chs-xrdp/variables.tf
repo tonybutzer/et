@@ -3,14 +3,11 @@ variable "region" {
   default = "us-west-2"
 }
 
-variable "master_instance_type" {
-  description = "The instance type."
-  default = "t3a.large"
-}
 
 variable "ship_instance_type" {
   description = "ships - The instance type."
-  default = "c5.9xlarge"
+  #default = "c5.9xlarge"
+  default = "t3a.2xlarge"
 }
 
 
@@ -27,7 +24,7 @@ variable "ship_userdata" {
 
 variable "ship_name" {
   description = "ship names - DUH!"
-  default = ["butzer-sship-0", "butzer-sship-1"]
+  default = ["butzer-ship-0", "butzer-ship-1"]
 }
 variable "test_name" {
   description = "The test number"
@@ -48,7 +45,8 @@ variable "ami" {
 variable "security_group_ssh" {
   description = "The AWS security group id"
   # default = "SG-LSDS-SSH-Server"
-  default = "sg-0d10c698f4475d184"
+  # default = "sg-0d10c698f4475d184"
+  default = "sg-04a67e6847b04e20f"
 }
 
 variable "security_group_ping" {

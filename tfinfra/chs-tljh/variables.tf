@@ -60,6 +60,6 @@ variable "security_group_web" {
 
 variable "iam_role" {
   description = "The AWS iam role"
-  default = "csr-Ec2-Role"
+  default = "lsds-developer-ec2"
 }
 

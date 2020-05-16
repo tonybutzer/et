@@ -3,14 +3,11 @@ variable "region" {
   default = "us-west-2"
 }
 
-variable "master_instance_type" {
-  description = "The instance type."
-  default = "t3a.large"
-}
 
 variable "ship_instance_type" {
   description = "ships - The instance type."
   default = "c5.9xlarge"
+  #default = "t3a.2xlarge"
 }
 
 
@@ -27,7 +24,7 @@ variable "ship_userdata" {
 
 variable "ship_name" {
   description = "ship names - DUH!"
-  default = ["butzer-sship-0", "butzer-sship-1"]
+  default = ["butzer-ship-0", "butzer-ship-1"]
 }
 variable "test_name" {
   description = "The test number"

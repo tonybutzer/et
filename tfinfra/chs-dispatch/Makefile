@@ -6,14 +6,13 @@ apply:
 
 destroy:
 	terraform destroy
-	./renameDefunct.sh butzer-sship-0
-	./renameDefunct.sh butzer-sship-1
+	./renameDefunct.sh butzer-dispatch
 
 bash:
 	docker run -i -t -v `pwd`/:/tfinfra tbutzer/terraform bash
 
 ipshow:
-	terraform show |egrep  'Name|private_ip'
+	terraform show |egrep  'Name|private_ip|nstance'
 
 
 git:
