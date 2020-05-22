@@ -35,7 +35,13 @@ ubuntu@ip-10-12-68-72:~$ aws s3 ls dev-et-data/NA_data_for_cloud/
 
 ![](https://raw.githubusercontent.com/tonybutzer/assets/master/et/delaware-row3-geojson.PNG)
 
+8. Prepared a COG generation demo to simplify understanding COGS for the upcoming Open Data Cube Steering Group.
 
+9. Created a Jupyter-Notebook for automatic creation of GEOJSON files and ESRI Shapefiles for the legacy shapefile fans on the team.
+
+10. Pushed data to the cloud using linux, docker and rclone without TIC impediments.
+
+11. Learned the difference between median and mean.
 
 ### Week Ending 5/15/2020
 
