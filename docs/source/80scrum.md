@@ -2,11 +2,46 @@
 
 ## WIP
 
+### Week Ending 5/22/2020
+
+**Another Productive Week for team veg_et_2020**
+
+1. Olena, Steffi and Gabe corrected math errors in the cloud code and the model output is a direct macth to the windows/ARC model. This is fantastic!
+
+2. We have the next iteration of data inputs pushed to the cloud.
+
+```
+ubuntu@ip-10-12-68-72:~$ aws s3 ls dev-et-data/NA_data_for_cloud/
+                           PRE ETo_mosaic/
+                           PRE NDVI/
+                           PRE Precipitation_withHawaiiPuertoRico/
+                           PRE Soil/
+                           PRE Temperature/
+2020-05-22 17:33:48  364931586 global_water_mask_inland.tif
+```
+
+3. Olena was nominated for the prestigious ET Data Wrangler of the Year Award.
+
+4. We plan to run the model on a couple of tiles to define the scaling computer types by base-lining time to run; cpu usage; and memory usage.
+
+5. We are targeting September Milestone for all of North America - but we will have parts of the 48 states done sooner and we can compare and share those partial results - they are about 5000x5000 pixels at 250 meters resolution.
+
+6. Below are pictures of the first two tiles to calculate and evaluate for Veg_ET.
+
+![](https://raw.githubusercontent.com/tonybutzer/assets/master/et/delaware-and-east-tiles-ndvi.PNG)
+
+
+7. We plan to scale the model to run a complete strip/row as depicted below:
+
+![](https://raw.githubusercontent.com/tonybutzer/assets/master/et/delaware-row3-geojson.PNG)
+
+
+
 ### Week Ending 5/15/2020
 
-1. Working with the NDVI data and reformating it into compressed geotiffs and clipping/cropping the Great Lakes AOI with geojson and shape file specified coordinates.
+1. Working with the NDVI data and reformatting it into compressed geotiffs and clipping/cropping the Great Lakes AOI with geojson and shape file specified coordinates.
 2. Setting up the data for daily medians - possibly using the xarray python abstraction/eco-system.
-3. Moved the model code and data wrngling code into documented python classes.
+3. Moved the model code and data wrangling code into documented python classes.
 
 So the primary goal for next week is:
 getting the North America "static" data placed in the cloud:
