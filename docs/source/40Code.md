@@ -69,7 +69,13 @@ https://github.com/tonybutzer/cloud-veg-et/blob/master/00-tony/00-notebooks/samp
 
 ### Clean Code and Code Smells
 
-![](https://raw.githubusercontent.com/tonybutzer/training/c603fbc0e36764f467ac87fd18baa1dce01c9bf9/craft/dotPlay/codeSmells.png)
+![](https://raw.githubusercontent.com/tonybutzer/training/c603fbc0e36764f467ac87fd18baa1dce01c9bf9/craft/dotPlay/codeSmellsComplexity.png)
+
+#### Speculative Generality
+
+- Can/should we move this flavor of code to the attic - Gabe,Tony ?
+
+![](https://raw.githubusercontent.com/tonybutzer/training/c603fbc0e36764f467ac87fd18baa1dce01c9bf9/craft/dotPlay/codeSmellsOOP.png)
 
 ### Code Refactoring
 
