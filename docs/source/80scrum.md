@@ -6,7 +6,7 @@
 
 **Another Productive Week for team veg_et_2020**
 
-1. Olena, Steffi and Gabe corrected math errors in the cloud code and the model output is a direct macth to the windows/ARC model. This is fantastic!
+1. Olena, Steffi and Gabe corrected math errors in the cloud code and the model output is a direct match to the windows/ARC model. This is fantastic!
 
 2. We have the next iteration of data inputs pushed to the cloud.
 
