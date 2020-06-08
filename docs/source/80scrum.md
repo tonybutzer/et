@@ -2,6 +2,20 @@
 
 ## WIP
 
+### Goals Week Ending 5/29/2020
+
+1. get 40N-80E model running
+	- time it 
+	- resource usage evaluation
+		- memory
+		- cpu
+		- disk - not so much
+2. Code simplification - dumb it down for Tony
+3. Next week run in parallel
+4. Soil data and other data incremental improvements
+5. Train tony on the alg and numpy wrangling
+
+
 ### Week Ending 5/22/2020
 
 **Another Productive Week for team veg_et_2020**
