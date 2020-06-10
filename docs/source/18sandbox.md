@@ -18,11 +18,11 @@
 
 [Connect to the SANDBOX HERE:](http://10.12.68.72)
 
-## http://34.215.234.93
+## http://10.12.68.72
 
 
 
-1. THE IP is http://34.215.234.93 ##- at least today
+1. THE IP is http://10.12.68.72 ##- at least today
 2. login with your last name
 3. You set the password the first time you login - so jot it down
 	- tony to preset this for a while

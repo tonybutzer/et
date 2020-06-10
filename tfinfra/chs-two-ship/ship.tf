@@ -24,5 +24,6 @@ resource "aws_instance" "ship" {
 
   user_data                   = "${file("files/${var.ship_userdata[count.index]}")}"
 
-  count = 2
+  #count = 2
+  count = 1
 }

@@ -23,7 +23,7 @@
 	- Other all staged in 90dayTemp butzer fromStefanie
 1. Project Initiation - Project Charter
 2. Weekly Communication Cadence
-	- forming the team [http://44.226.205.97/01project_charter.html#staff-contact-list](http://44.226.205.97/01project_charter.html#staff-contact-list)
+	- forming the team [http://10.12.69.21/01project_charter.html#staff-contact-list](http://10.12.69.21/01project_charter.html#staff-contact-list)
 2. Code
 	- Darin is gathering current VegET code into a public github - WIP
 	- https://github.com/ecolstat/VegET
@@ -52,12 +52,11 @@
 	- Data Bucket Creation - baby-step 1
 		- in GA Account for access to any sandbox - any AWS system
 		- Oregon region US-west-2
-		- [Data Wrangle HERE:](http://44.226.205.97/35data_wrangle.html)
+		- [Data Wrangle HERE:](http://10.12.69.21/35data_wrangle.html)
 	- Sandboxes and Python Environments
 		- etymology of a container
 	- Project Website with DNS Record - DONE
-		- initial ip is **44.226.205.97**
-		- ```dynamic dns``` is et.hopto.org
+		- initial ip is **10.12.69.21**
 	- ```dump tljh```TLJH inside CHS with OpenDataCube Functioning- document why
 		- pangeo.chs offers an outsourced solution for simple jupyter play - frees Tony
 			- pangeo limitations include sometimes broken;
@@ -68,7 +67,7 @@
 		- tljh not a docker approach - development philosophy should mandate docker
 5. Data
 	- documented HERE
-[HERE:CLICK:data section](http://44.226.205.97/30Data.html#current-input-data-to-the-veget-model)
+[HERE:CLICK:data section](http://10.12.69.21/30Data.html#current-input-data-to-the-veget-model)
 	- Loading -- Wrangling
 		- Initially from the VDI cluster --> 90DayTemp
 		- 90DayTemp (scp) --> to AWS Instance
@@ -84,15 +83,14 @@
 6. Gap analysis technical shortfall analysis of pangeo.chs.usgs.gov as an OpenDataCube platform
 
 ###Links
-[HERE:CLICK:data section](http://44.226.205.97/30Data.html#current-input-data-to-the-veget-model)
+[HERE:CLICK:data section](http://10.12.69.21/30Data.html#current-input-data-to-the-veget-model)
 
 ![delaware river basin](https://www.google.com/maps/vt/data=w3p7_pOuvvZgX-a1RoKW8ZSf1bXkbOrDzeiYg9XTw0bpVFU5myZM9Bd_NOSjCVSnzgPUpJcE3K2FKG1Yy5rp4H9dE3qkjPq9okWnSA63VGGkNRijWQ0IdtXjzhoW2TiA3MrxegRFlhBsucd9ayYECQZXynkEVM6hUrWm9ZOfdUvGLYQqhIqAN_YCaDRN4Hizs92PEryW1TLWpT10WqnUiCJcXX-PqKLXgK19bsYBKVBnbj8)
 
 ## Tactical Successes
 1. Meetings between technologists and scientists happening - weekly
 2. Stood up a ET in the cloud website
-	- http://et.hopto.org  # unofficial dns entry
-	- http://44.226.205.97
+	- http://10.12.69.21
 
 ## Technical Challenges
 1. Data Loading

@@ -481,7 +481,7 @@ But again, the sooner we integrate the VegET with its LSP libraries in the same 
 
 
 Started a kanban to play with here:
-[Kanboard KANBOARD kanboard KANBAN](http://44.226.205.97:8080/board/2)
+[Kanboard KANBOARD kanboard KANBAN](http://10.12.69.21:8080/board/2)
 
 `you can login with the same user and password as the jupyter lab sandbox`
 
@@ -532,7 +532,7 @@ xarray manual [Man](http://xarray.pydata.org/en/stable/generated/xarray.Dataset.
 	- still loading the MODIS data
 	- bucket renamed to `ga-et-data`
 4. Data Discovery - started some notes here
-	[LPDAAC DATA WOW CLICK HERE:](http://44.226.205.97/33data_discovery.html#lpdaac)
+	[LPDAAC DATA WOW CLICK HERE:](http://10.12.69.21/33data_discovery.html#lpdaac)
 5. More to Come
 6. Tony should get better at packaging python pip/conda inside a venv with tljh - I know right?
 
