@@ -1,6 +1,6 @@
 publish:
-	#git config --global user.email tonybutzer@gmail.com
 	git remote set-url origin https://github.com/tonybutzer/et.git
+	git config --global user.email tonybutzer@gmail.com
 	git config --global user.name tonybutzer
 	git config --global push.default simple
 	git add .
