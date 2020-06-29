@@ -17,6 +17,7 @@ Welcome to Evapotranspiration's WIP documentation!
    15conops.md
    18sandbox.md
    20infra.md
+   27etops.md
    30Data.md
    33data_discovery.md
    35data_wrangle.md
