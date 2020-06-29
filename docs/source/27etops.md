@@ -2,6 +2,16 @@
 
 ## docker and docker logs
 
+- see github repo 
+	- https://github.com/tonybutzer/etops/tree/master/grid_veget_c
+
+- look at Dockerfile
+- look at gridmeister.py
+- look at *.sh
+
+- bash cmd_...
+
+
 ## bucket
 
 ### bucket data moving
