@@ -12,6 +12,84 @@
 - bash cmd_...
 
 
+## CHS and CHS Processes
+
+### Process recap of requestor pays
+
+- bucket = dev-et-data
+- chat = rich signell and sam congden
+- fyi chs customer user group
+
+
+## CHS Processes
+
+### The Board CAB
+
+### CAB Request Process
+https://support.chs.usgs.gov/display/CHSKB/CAB+-+Custom+Infrastructure+Request
+
+#### Synopsys
+
+- RFC - request for change
+	- developers do not have root permissions
+	- so they request admins to change AWS on their behalf
+	- CHS use CloudFormation Templates (CFTs)
+
+- Step by Step Guide
+	- our account = LSDS - our EC2 Role = lsds-developer-ec2 # IAM Role
+	- create a new branch for your cft change - more info needed
+	- make changes and sumbit a commit
+	- push branch to repository
+	- create a merge request
+	- include brief description
+	- create a change request 
+		- https://taskmgr.chs.usgs.gov/servicedesk/customer/portal/9
+		- submit AN rfc HERE
+
+- Resources
+	- https://code.chs.usgs.gov/chs-library
+
+
+- Review process
+	- in by friday - reviewed by the next Tuesday
+	- notification of completed RFCs
+	- Classes
+		- Standard
+		- Normal
+			- changes security posture
+	- CHS Operations completes Change
+	- Customer/user validates the operation works
+	- Closed
+	- modifications use a CRQ-# - what?
+	- logged, documented and reviewed by all developer groups.
+
+### CHS Example lsds-s3-dev-et-data
+
+#### Commit
+https://code.chs.usgs.gov/CHS-Custom-Infrastructure/LSDSDPAS/LSDSDPAS/-/commit/981fe8bdf093fd6345bf0ad0854867a311a11eb4
+
+#### gitlab repo
+https://code.chs.usgs.gov/CHS-Custom-Infrastructure/LSDSDPAS/LSDSDPAS/-/tree/development
+
+#### CFT
+https://code.chs.usgs.gov/CHS-Custom-Infrastructure/LSDSDPAS/LSDSDPAS/-/blob/development/S3/Templates/lsds-s3-dev-et-data.yml
+
+### Pangeo Process
+https://code.chs.usgs.gov/usgs-chs/CHS-IaC/baseline/managed-services/pangeo/pangeo-image/-/blob/master/pangeo-notebook/packages.txt
+
+#### Need to understand the gitlab structure
+
+- code.chs.usgs.gov
+	- usge-chs
+	- CHS-IaC baseline
+		- managed-services/pangeo
+
+
+### Special IAM Users
+
+An AWS Identity and Access Management (IAM) user is an entity that you create in AWS to represent the person or application that uses it to interact with AWS. A user in AWS consists of a name and credentials. An IAM user with administrator permissions is not the same thing as the AWS account root user.
+
+
 ## bucket
 
 ### bucket data moving
