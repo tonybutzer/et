@@ -1,0 +1,13 @@
+matplotlib
+matplotlib_venn
+pandas
+seaborn
+plotly
+plotly.express
+rasterio
+awscli
+s3fs
+ffmpeg
+pika
+dash
+boto3
