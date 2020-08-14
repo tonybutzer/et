@@ -42,6 +42,8 @@ rclone copy /mnt/Projects/Cloud_Veg_ET/Data/NDVI et-data:/ga-et-data/Cloud_Veg_E
 PPT
 ```
 
+rclone copy et-data:ga-et-data/v1DRB_outputs/model_outputs/ /mnt/Projects/Cloud_Veg_ET/fromtony/ -P
+
 ### Notes
 
 ### Air Temperature

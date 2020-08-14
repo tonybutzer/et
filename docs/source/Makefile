@@ -1,3 +1,5 @@
+all: html git 
+
 html:
 	(cd .. && make )
 

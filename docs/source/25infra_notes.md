@@ -51,3 +51,18 @@ aws s3api get-bucket-policy --bucket ${BUCKETNAME}
 		- Using Resource Groups
 
 1. I need to expand on the detail here
+
+## CHS 
+
+merge requests - example
+https://code.chs.usgs.gov/CHS-Custom-Infrastructure/LSDSDPAS/LSDSDPAS/-/merge_requests/399
+
+request for service
+
+We can just create a public bucket policy for whatever bucket you need to have public. You can request the policy following our CAB - Custom Infra Request process.
+
+https://support.chs.usgs.gov/display/CHSKB/CAB+-+Custom+Infrastructure+Request
+
+
+read:https://support.chs.usgs.gov/display/CHSKB/CAB+-+Custom+Infrastructure+Request
+

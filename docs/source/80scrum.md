@@ -2,6 +2,130 @@
 
 ## WIP
 
+### Goals Week Ending 5/29/2020
+
+1. get 40N-80E model running
+	- time it 
+	- resource usage evaluation
+		- memory
+		- cpu
+		- disk - not so much
+2. Code simplification - dumb it down for Tony
+3. Next week run in parallel
+4. Soil data and other data incremental improvements
+5. Train tony on the alg and numpy wrangling
+
+
+### Week Ending 5/22/2020
+
+**Another Productive Week for team veg_et_2020**
+
+1. Olena, Steffi and Gabe corrected math errors in the cloud code and the model output is a direct match to the windows/ARC model. This is fantastic!
+
+2. We have the next iteration of data inputs pushed to the cloud.
+
+```
+ubuntu@ip-10-12-68-72:~$ aws s3 ls dev-et-data/NA_data_for_cloud/
+                           PRE ETo_mosaic/
+                           PRE NDVI/
+                           PRE Precipitation_withHawaiiPuertoRico/
+                           PRE Soil/
+                           PRE Temperature/
+2020-05-22 17:33:48  364931586 global_water_mask_inland.tif
+```
+
+3. Olena was nominated for the prestigious ET Data Wrangler of the Year Award.
+
+4. We plan to run the model on a couple of tiles to define the scaling computer types by base-lining time to run; cpu usage; and memory usage.
+
+5. We are targeting September Milestone for all of North America - but we will have parts of the 48 states done sooner and we can compare and share those partial results - they are about 5000x5000 pixels at 250 meters resolution.
+
+6. Below are pictures of the first two tiles to calculate and evaluate for Veg_ET.
+
+![](https://raw.githubusercontent.com/tonybutzer/assets/master/et/delaware-and-east-tiles-ndvi.PNG)
+
+
+7. We plan to scale the model to run a complete strip/row as depicted below:
+
+![](https://raw.githubusercontent.com/tonybutzer/assets/master/et/delaware-row3-geojson.PNG)
+
+8. Prepared a COG generation demo to simplify understanding COGS for the upcoming Open Data Cube Steering Group.
+
+9. Created a Jupyter-Notebook for automatic creation of GEOJSON files and ESRI Shapefiles for the legacy shapefile fans on the team.
+
+10. Pushed data to the cloud using linux, docker and rclone without TIC impediments.
+
+11. Learned the difference between median and mean.
+
+### Week Ending 5/15/2020
+
+1. Working with the NDVI data and reformatting it into compressed geotiffs and clipping/cropping the Great Lakes AOI with geojson and shape file specified coordinates.
+2. Setting up the data for daily medians - possibly using the xarray python abstraction/eco-system.
+3. Moved the model code and data wrangling code into documented python classes.
+
+So the primary goal for next week is:
+getting the North America "static" data placed in the cloud:
+
+1. Precipitation
+2. Soils
+3. ETo
+4. Ts
+	
+- meanwhile we will work with the NDVI we have and experiment with ways to create map-reduced daily averages in the miniPANGEO and the superPANGEO.
+	
+- we will also debug the model calculations by comparing the cloud computed values with pragmatic calculations
+	
+- we will also continue to organize the python code into useful classes.
+ 
+
+### Week Ending 5/8/2020
+
+The VEG_ET 2020 team finished another productive week.
+
+#### Accomplishments
+
+1. We have added Rich Signell science and cloud expert to the team - this is tremendous news for our team - and we are honored to have him as a member.
+2. We moved the model from the Aussie Account to the USGS Space - We will need a more formal account in USGS CHS soon. We need to discuss this with Gabriel Senay and Rich Signell on options.
+3. The model ran without modification in the new "more secure" CHS USGS sandbox with zero code modifications. AOI is Delaware River Basin.
+4. We worked hard on an integrated environment sharing the best of both development environments the Windows Desktop (ARC gui and pycharm) and the speed and expandability of cloud storage.
+5. We are working on reducing the S3 storage foot print to the least practical size for our needs.
+6. We tested COG compression using "DEFLATE" we plan to test various compression schemes.
+7. We continue to loop in Terry Sohl's [Greg and Jordan] crew on how to get data inputs to the AWS buckets and how to grab the many outputs from the model for quality inspections and science validation.
+
+#### Enabling Technologies
+1. fsspec
+	- https://readthedocs.org/projects/filesystem-spec/downloads/pdf/latest/
+
+2. fileZilla
+3. S3FS linux mounts from an S3 bucket "tree"
+4. python threads and queues
+
+#### Traditions
+
+We sent German Chocolate to Rich as part of the ET tradition for welcoming new ET Team members. After he begged -- we had to.
+
+![](https://raw.githubusercontent.com/tonybutzer/assets/master/et/Rich_Signell_s.jpg)
+
+
+
+
+#### Next Week
+
+1. Rich is looking at building xarrays using dask to create the average daily NDVI over the 48States. This will help demo the bigPANGEO and its dask cluster and the xarray/dask pattern. There are at least three dask python patterns Tony needs to learn.
+
+2. Gabe is working on transforming the model into modules so it can evolve with the project. We are working on getting Gabe the right pycharm tool-set - navigating the robust government approval process.
+
+3. Tony will continue to help with the Windows meets linux meets the Cloud items. And finally learn dask.
+
+4. We will likely work on the next steps plan and scope out the Great Lakes Tile by prototyping in the cloud. 
+
+... more to come ...
+
+... stay tuned ...
+
+... to be continued ...
+
+
 ### April 25, 2020
 
 My Actions for this week-end
@@ -357,7 +481,7 @@ But again, the sooner we integrate the VegET with its LSP libraries in the same 
 
 
 Started a kanban to play with here:
-[Kanboard KANBOARD kanboard KANBAN](http://44.226.205.97:8080/board/2)
+[Kanboard KANBOARD kanboard KANBAN](http://10.12.69.21:8080/board/2)
 
 `you can login with the same user and password as the jupyter lab sandbox`
 
@@ -408,7 +532,7 @@ xarray manual [Man](http://xarray.pydata.org/en/stable/generated/xarray.Dataset.
 	- still loading the MODIS data
 	- bucket renamed to `ga-et-data`
 4. Data Discovery - started some notes here
-	[LPDAAC DATA WOW CLICK HERE:](http://44.226.205.97/33data_discovery.html#lpdaac)
+	[LPDAAC DATA WOW CLICK HERE:](http://10.12.69.21/33data_discovery.html#lpdaac)
 5. More to Come
 6. Tony should get better at packaging python pip/conda inside a venv with tljh - I know right?
 

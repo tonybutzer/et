@@ -41,3 +41,34 @@
 
 [Article Here](http://cloudscaling.com/blog/cloud-computing/the-history-of-pets-vs-cattle/)
 )
+
+## Bucket Permissions
+
+### Cross Account
+
+```
+{
+  "Version": "2012-10-17",
+  "Id": "Policy1563360701540",
+  "Statement": [
+    {
+      "Sid": "ListFrom-usgs-CHS-aws",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::574826924367:root"
+      },
+      "Action": "s3:ListBucket",
+      "Resource": "arn:aws:s3:::ga-et-data"
+    },
+    {
+      "Sid": "GetFrom-usgs-CHS-aws",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::574826924367:root"
+      },
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::ga-et-data/*"
+    }
+  ]
+}
+```
