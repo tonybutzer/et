@@ -11,3 +11,8 @@ ffmpeg
 pika
 dash
 boto3
+holoviews
+earthpy
+h5netcdf
+fiona
+xarray
