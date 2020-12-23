@@ -92,6 +92,19 @@ An AWS Identity and Access Management (IAM) user is an entity that you create in
 
 ## bucket
 
+## CHS access from llsrlscd04 to/from buckets
+
+- start a chat with Sam Congdon and Ryan Chamberlain
+- 
+
+## Requester Pays Hell
+
+[5/6 2:40 PM] Butzer, Tony (Contractor)
+    does that affect aws s3 ls - i mean do wee need requester-pays when using the aws cli?
+​[5/6 2:41 PM] Congdon, Samuel F
+    yeah, you have to add the --request-payer=requester argument for CLI commands
+
+
 ### bucket data moving
 
 ### getting data from dev-et-data to the netapp

@@ -1,6 +1,28 @@
 # SCRUM - running
 
 ## WIP
+### Goals for January 2021
+#### so on 12/24/2020 from 7am - 9am:
+
+
+	
+12/24/2020
+	- create new larger instance tbd
+	- review nice improvements to mosaic software
+	- review outputs from mosaic run for these: -i out/DelawareRiverBasin/Run11_11_2020 -o enduser/DelawareRiverBasin/drb150b/ -y 2080 etasw
+	- start a rerun of the model 150 years with the funswitch complicated stuff
+
+#### Code Improvements
+- discuss rewriting the process flow - simplify funswitch yaml - pre-verify input data and maybe create zarr windowed data structure in s3
+- deliver xarray instead of numpy to model 
+- improve write raster primitives with error handling
+- move from philistine practices to software engineering discipline
+- sometimes you have to go slow to go fast - complexity will kill you - 
+
+#### 150 year orchestration
+- use the same docker orchestration technique for the 150 year as etm(mosaic)
+
+> `Speculative generality` is a smell to which we are very sensitive. You get it when people say, "Oh, I think we need the ability to do this kind of thing someday" and thus want all sorts of hooks and special cases to handle things that aren't required. The result often is harder to understand and maintain
 
 ### Goals Week Ending 5/29/2020
 

@@ -10,6 +10,7 @@ Welcome to Evapotranspiration's WIP documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   80scrum.md
    00define_ET.md
    00status.md
    01project_charter.md
@@ -25,7 +26,6 @@ Welcome to Evapotranspiration's WIP documentation!
    45scaling.md
    50cloud.md
    70nps_synergy.md
-   80scrum.md
    90ODC_synergy.md
    91Landfire_synergy.md
    99tony_notes.md
