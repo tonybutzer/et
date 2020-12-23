@@ -3,14 +3,24 @@
 ## WIP
 ### Goals for January 2021
 #### so on 12/24/2020 from 7am - 9am:
-
-
 	
 12/24/2020
 	- create new larger instance tbd
 	- review nice improvements to mosaic software
 	- review outputs from mosaic run for these: -i out/DelawareRiverBasin/Run11_11_2020 -o enduser/DelawareRiverBasin/drb150b/ -y 2080 etasw
 	- start a rerun of the model 150 years with the funswitch complicated stuff
+
+#### Staffing Skill Mix and Availability
+- Tony available 1 day per week for ET
+- No funding for Matt Buckmann
+- Olena, and others do they code?
+- Gabe Parrish - training plan and task assignment process
+- Direct Access to Michelle's team
+- Negotiate reciprocity for Logan
+	- Barter system with Neal
+- Understand the big and little projects in science
+	- can we form any alliance friendships
+- Working with Darin Schulte
 
 #### Code Improvements
 - discuss rewriting the process flow - simplify funswitch yaml - pre-verify input data and maybe create zarr windowed data structure in s3
