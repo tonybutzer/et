@@ -6,7 +6,7 @@
 	
 12/24/2020
 - create new larger instance tbd
-	- [costs](https://calculator.aws/#/estimate?id=a3ce52fd343d2d187a8ce33ce610f89f74cb7784)
+	- [m5a.4x costs](https://calculator.aws/#/estimate?id=6c1c2f5cfbcfec57a44f2b97ac52166a35c93a53)
 - review nice improvements to mosaic software
 - review outputs from mosaic run for these: -i out/DelawareRiverBasin/Run11_11_2020 -o enduser/DelawareRiverBasin/drb150b/ -y 2080 etasw
 - start a rerun of the model 150 years with the funswitch complicated stuff
