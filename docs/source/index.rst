@@ -15,6 +15,7 @@ Welcome to Evapotranspiration's WIP documentation!
    00status.md
    01project_charter.md
    10project_plan
+   12wbs.md
    15conops.md
    18sandbox.md
    20infra.md
