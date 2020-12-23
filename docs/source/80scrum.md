@@ -5,10 +5,10 @@
 #### so on 12/24/2020 from 7am - 9am:
 	
 12/24/2020
-	- create new larger instance tbd
-	- review nice improvements to mosaic software
-	- review outputs from mosaic run for these: -i out/DelawareRiverBasin/Run11_11_2020 -o enduser/DelawareRiverBasin/drb150b/ -y 2080 etasw
-	- start a rerun of the model 150 years with the funswitch complicated stuff
+- create new larger instance tbd
+- review nice improvements to mosaic software
+- review outputs from mosaic run for these: -i out/DelawareRiverBasin/Run11_11_2020 -o enduser/DelawareRiverBasin/drb150b/ -y 2080 etasw
+- start a rerun of the model 150 years with the funswitch complicated stuff
 
 #### Staffing Skill Mix and Availability
 - Tony available 1 day per week for ET
